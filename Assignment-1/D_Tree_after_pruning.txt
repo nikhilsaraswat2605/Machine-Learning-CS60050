@@ -1,0 +1,100 @@
+Profession ['Marketing' 'Executive' 'Artist' 'Doctor' 'Healthcare' 'Engineer'
+ 'Lawyer' 'Homemaker' 'Entertainment']
+		OutCome = D
+		Age [2 3 4 5 6 7 8 9]
+				OutCome = D
+				OutCome = D
+				OutCome = D
+				OutCome = B
+				Family_Size [1. 2. 3. 4. 5. 9.]
+						Gender ['Female' 'Male']
+								OutCome = A
+								OutCome = D
+						OutCome = C
+						OutCome = C
+						OutCome = C
+						OutCome = C
+						OutCome = A
+				OutCome = C
+				OutCome = C
+				OutCome = A
+		Spending_Score ['Low' 'Average' 'High']
+				Age [2 3 4 5 6 7 8 9]
+						OutCome = D
+						OutCome = A
+						OutCome = A
+						Var_1 ['Cat_6' 'Cat_4' 'Cat_2' 'Cat_7' 'Cat_3' 'Cat_1' 'Cat_5']
+								OutCome = B
+								OutCome = A
+								OutCome = B
+								OutCome = A
+								OutCome = B
+								OutCome = A
+								OutCome = B
+						OutCome = B
+						OutCome = B
+						OutCome = B
+						OutCome = A
+				OutCome = C
+				Age [2 3 4 5 6 7 8 9]
+						OutCome = D
+						OutCome = D
+						OutCome = C
+						OutCome = C
+						OutCome = C
+						OutCome = C
+						OutCome = C
+						OutCome = C
+		OutCome = D
+		OutCome = D
+		Family_Size [1. 2. 3. 4. 5. 6. 7. 8. 9.]
+				OutCome = A
+				Spending_Score ['Low' 'High' 'Average']
+						OutCome = A
+						OutCome = B
+						OutCome = C
+				OutCome = A
+				Spending_Score ['Low' 'Average' 'High']
+						Var_1 ['Cat_4' 'Cat_6' 'Cat_5' 'Cat_1' 'Cat_2' 'Cat_3']
+								OutCome = A
+								OutCome = D
+								OutCome = A
+								OutCome = B
+								OutCome = A
+								OutCome = D
+						OutCome = B
+						OutCome = A
+				Age [2 3 4 5 6 7]
+						OutCome = D
+						OutCome = D
+						OutCome = D
+						OutCome = B
+						OutCome = B
+						OutCome = B
+				OutCome = B
+				OutCome = A
+				OutCome = D
+				OutCome = D
+		Family_Size [1. 2. 3. 4. 5. 6. 9.]
+				OutCome = A
+				Graduated ['Yes' 'No']
+						OutCome = C
+						OutCome = A
+				OutCome = A
+				OutCome = C
+				OutCome = A
+				OutCome = B
+				OutCome = A
+		Age [3 4 5 6 7 8 9]
+				OutCome = D
+				OutCome = D
+				OutCome = A
+				Family_Size [1. 2. 3. 4.]
+						OutCome = A
+						OutCome = B
+						OutCome = B
+						OutCome = B
+				OutCome = B
+				OutCome = A
+				OutCome = D
+		OutCome = A

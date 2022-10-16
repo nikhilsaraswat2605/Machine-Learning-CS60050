@@ -1,0 +1,4045 @@
+Profession ['Marketing' 'Executive' 'Artist' 'Doctor' 'Healthcare' 'Engineer'
+ 'Lawyer' 'Homemaker' 'Entertainment']
+		Age [2 3 4 5 6 7 8 9]
+				Family_Size [2. 3. 4. 5.]
+						OutCome = D
+						OutCome = A
+						Gender ['Female' 'Male']
+								OutCome = D
+								OutCome = C
+						Gender ['Male' 'Female']
+								OutCome = C
+								OutCome = B
+				Family_Size [1. 2. 3. 4. 5. 6. 7. 8.]
+						Work_Experience [1. 5. 6. 7.]
+								OutCome = D
+								OutCome = C
+								OutCome = D
+								OutCome = D
+						Var_1 ['Cat_6' 'Cat_4' 'Cat_3' 'Cat_1']
+								Gender ['Female' 'Male']
+										OutCome = D
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = D
+								Work_Experience [2. 3.]
+										OutCome = A
+										OutCome = D
+								Gender ['Female' 'Male']
+										OutCome = D
+										Ever_Married ['Yes' 'No']
+												OutCome = D
+												OutCome = A
+								OutCome = D
+						Work_Experience [1. 2. 3. 4. 5. 7.]
+								Var_1 ['Cat_4' 'Cat_3' 'Cat_2' 'Cat_6']
+										OutCome = D
+										Ever_Married ['Yes' 'No']
+												OutCome = A
+												OutCome = B
+										OutCome = C
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = A
+								Gender ['Female' 'Male']
+										Graduated ['No' 'Yes']
+												Gender ['Female']
+														OutCome = C
+												OutCome = D
+										OutCome = D
+								Gender ['Female' 'Male']
+										OutCome = B
+										OutCome = A
+								Gender ['Female' 'Male']
+										OutCome = A
+										OutCome = B
+								OutCome = A
+								OutCome = A
+						Var_1 ['Cat_4' 'Cat_2' 'Cat_3' 'Cat_6' 'Cat_7']
+								OutCome = D
+								OutCome = A
+								OutCome = C
+								Work_Experience [1. 3.]
+										Ever_Married ['No' 'Yes']
+												Gender ['Female' 'Male']
+														OutCome = D
+														OutCome = C
+												OutCome = D
+										OutCome = C
+								OutCome = C
+						Gender ['Male' 'Female']
+								Work_Experience [1. 5.]
+										Var_1 ['Cat_6' 'Cat_1']
+												Gender ['Male']
+														OutCome = D
+												Gender ['Male']
+														OutCome = C
+										OutCome = C
+								OutCome = D
+						Work_Experience [1. 2.]
+								OutCome = B
+								OutCome = D
+						Gender ['Female' 'Male']
+								OutCome = B
+								OutCome = D
+						OutCome = C
+				Var_1 ['Cat_6' 'Cat_3' 'Cat_4' 'Cat_2' 'Cat_7' 'Cat_5']
+						Family_Size [1. 2. 3. 4. 5. 6.]
+								Graduated ['Yes' 'No']
+										Gender ['Male' 'Female']
+												Work_Experience [1. 5.]
+														OutCome = A
+														OutCome = A
+												OutCome = D
+										Ever_Married ['Yes' 'No']
+												OutCome = D
+												Gender ['Male']
+														OutCome = B
+								Spending_Score ['Low' 'High']
+										OutCome = D
+										Gender ['Male' 'Female']
+												OutCome = B
+												OutCome = D
+								OutCome = D
+								Ever_Married ['No' 'Yes']
+										OutCome = A
+										OutCome = D
+								Ever_Married ['Yes' 'No']
+										OutCome = D
+										OutCome = B
+								OutCome = D
+						Work_Experience [1. 3. 5.]
+								Graduated ['Yes' 'No']
+										OutCome = D
+										Gender ['Male' 'Female']
+												Family_Size [3. 4.]
+														OutCome = D
+														OutCome = C
+												OutCome = D
+								OutCome = D
+								OutCome = C
+						OutCome = D
+						Work_Experience [1. 4. 5.]
+								OutCome = D
+								OutCome = A
+								OutCome = D
+						OutCome = D
+						OutCome = B
+				Work_Experience [1. 2. 4. 5. 6.]
+						Spending_Score ['High' 'Low' 'Average']
+								Var_1 ['Cat_3' 'Cat_6' 'Cat_4']
+										OutCome = D
+										OutCome = B
+										OutCome = D
+								Var_1 ['Cat_6' 'Cat_7' 'Cat_4' 'Cat_3']
+										Family_Size [1. 2. 3. 5.]
+												Graduated ['Yes' 'No']
+														OutCome = D
+														OutCome = D
+												Gender ['Male' 'Female']
+														OutCome = D
+														OutCome = D
+												Gender ['Female' 'Male']
+														OutCome = D
+														OutCome = A
+												Gender ['Female' 'Male']
+														OutCome = A
+														OutCome = D
+										Gender ['Male' 'Female']
+												OutCome = D
+												OutCome = A
+										OutCome = D
+										OutCome = D
+								Var_1 ['Cat_4' 'Cat_6' 'Cat_2']
+										Family_Size [2. 3.]
+												OutCome = D
+												OutCome = A
+										OutCome = A
+										OutCome = A
+						OutCome = A
+						OutCome = C
+						Family_Size [1. 2. 3.]
+								OutCome = D
+								OutCome = A
+								OutCome = B
+						OutCome = D
+				Family_Size [1. 2. 3. 4. 6.]
+						OutCome = A
+						Gender ['Male' 'Female']
+								Var_1 ['Cat_7' 'Cat_6']
+										OutCome = C
+										OutCome = D
+								OutCome = C
+						Spending_Score ['Low' 'Average' 'High']
+								OutCome = D
+								OutCome = B
+								OutCome = D
+						Var_1 ['Cat_7' 'Cat_1' 'Cat_6']
+								OutCome = A
+								OutCome = D
+								OutCome = D
+						Gender ['Male' 'Female']
+								OutCome = A
+								OutCome = D
+				Spending_Score ['Low' 'Average' 'High']
+						Ever_Married ['Yes' 'No']
+								Graduated ['Yes' 'No']
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = C
+										OutCome = D
+								OutCome = A
+						OutCome = D
+						Graduated ['Yes' 'No']
+								Family_Size [2. 5.]
+										OutCome = B
+										OutCome = C
+								OutCome = A
+				Gender ['Male' 'Female']
+						Ever_Married ['Yes' 'No']
+								OutCome = A
+								OutCome = D
+						OutCome = B
+				OutCome = C
+		Age [2 3 4 5 6 7 8 9]
+				OutCome = D
+				Family_Size [1. 2. 3. 4. 5. 6. 7. 8. 9.]
+						OutCome = A
+						Graduated ['No' 'Yes']
+								OutCome = D
+								Gender ['Female' 'Male']
+										OutCome = C
+										OutCome = A
+						Work_Experience [1. 2. 5. 6. 7.]
+								Spending_Score ['High' 'Low' 'Average']
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = D
+										Gender ['Male' 'Female']
+												Ever_Married ['No' 'Yes']
+														OutCome = A
+														OutCome = D
+												OutCome = D
+										OutCome = D
+								OutCome = D
+								OutCome = D
+								OutCome = A
+								OutCome = A
+						OutCome = D
+						Ever_Married ['Yes' 'No']
+								OutCome = A
+								OutCome = C
+						OutCome = D
+						OutCome = A
+						OutCome = D
+						OutCome = A
+				Family_Size [1. 2. 3. 4. 5. 6. 7. 9.]
+						Graduated ['No' 'Yes']
+								OutCome = C
+								OutCome = D
+						Graduated ['Yes' 'No']
+								Work_Experience [1. 4. 5.]
+										Spending_Score ['Average' 'Low' 'High']
+												Gender ['Female' 'Male']
+														OutCome = A
+														OutCome = A
+												OutCome = B
+												OutCome = A
+										OutCome = C
+										OutCome = A
+								Var_1 ['Cat_6' 'Cat_1' 'Cat_4']
+										Spending_Score ['Low' 'High' 'Average']
+												Ever_Married ['Yes' 'No']
+														OutCome = A
+														OutCome = A
+												OutCome = D
+												OutCome = A
+										OutCome = A
+										OutCome = D
+						Spending_Score ['Average' 'High' 'Low']
+								Graduated ['No' 'Yes']
+										OutCome = A
+										Work_Experience [1. 5.]
+												Var_1 ['Cat_4' 'Cat_6']
+														OutCome = B
+														OutCome = A
+												OutCome = B
+								Work_Experience [1. 2. 3. 4. 5.]
+										Graduated ['No' 'Yes']
+												Gender ['Male']
+														OutCome = B
+												Gender ['Male']
+														OutCome = B
+										OutCome = D
+										Var_1 ['Cat_6' 'Cat_7' 'Cat_4']
+												Gender ['Male']
+														OutCome = C
+												OutCome = C
+												OutCome = D
+										OutCome = D
+										OutCome = C
+								OutCome = D
+						Work_Experience [1. 3. 4. 5.]
+								Spending_Score ['High' 'Low' 'Average']
+										Graduated ['Yes' 'No']
+												OutCome = B
+												Var_1 ['Cat_6' 'Cat_3']
+														OutCome = B
+														OutCome = D
+										OutCome = D
+										OutCome = C
+								Graduated ['No' 'Yes']
+										OutCome = A
+										OutCome = C
+								Graduated ['No' 'Yes']
+										OutCome = A
+										OutCome = B
+								Spending_Score ['High' 'Average']
+										OutCome = C
+										OutCome = B
+						Var_1 ['Cat_6' 'Cat_3' 'Cat_2' 'Cat_4']
+								Work_Experience [1. 2. 3. 5.]
+										Graduated ['No' 'Yes']
+												OutCome = A
+												OutCome = B
+										OutCome = B
+										OutCome = A
+										OutCome = B
+								OutCome = D
+								OutCome = B
+								OutCome = D
+						Graduated ['No' 'Yes']
+								OutCome = D
+								Spending_Score ['Low' 'High']
+										OutCome = D
+										OutCome = A
+						Work_Experience [1. 7.]
+								OutCome = D
+								OutCome = B
+						OutCome = A
+				Family_Size [1. 2. 3. 4. 5. 6. 7. 9.]
+						OutCome = B
+						Work_Experience [1. 2. 3. 4. 5.]
+								Spending_Score ['High' 'Low' 'Average']
+										Graduated ['Yes' 'No']
+												Gender ['Male']
+														OutCome = C
+												OutCome = C
+										OutCome = D
+										OutCome = A
+								OutCome = D
+								OutCome = A
+								OutCome = C
+								Graduated ['No' 'Yes']
+										OutCome = D
+										OutCome = B
+						Var_1 ['Cat_6' 'Cat_4' 'Cat_1' 'Cat_3']
+								Spending_Score ['High' 'Average' 'Low']
+										Graduated ['Yes' 'No']
+												Work_Experience [1. 4.]
+														OutCome = C
+														OutCome = C
+												OutCome = C
+										OutCome = A
+										OutCome = A
+								Spending_Score ['High' 'Average']
+										OutCome = A
+										OutCome = B
+								Spending_Score ['Average' 'Low']
+										OutCome = C
+										OutCome = D
+								OutCome = A
+						Graduated ['Yes' 'No']
+								Var_1 ['Cat_3' 'Cat_6' 'Cat_4' 'Cat_2']
+										OutCome = B
+										Spending_Score ['High' 'Average' 'Low']
+												Work_Experience [1. 4. 5.]
+														OutCome = B
+														OutCome = C
+														OutCome = B
+												OutCome = C
+												OutCome = B
+										Spending_Score ['High' 'Average']
+												OutCome = B
+												OutCome = A
+										OutCome = B
+								Var_1 ['Cat_4' 'Cat_6']
+										OutCome = D
+										Work_Experience [1. 3. 4. 6.]
+												Spending_Score ['Average' 'High' 'Low']
+														OutCome = B
+														OutCome = B
+														OutCome = A
+												OutCome = D
+												OutCome = A
+												OutCome = A
+						Work_Experience [1. 2. 3. 4. 5.]
+								Spending_Score ['High' 'Average' 'Low']
+										Var_1 ['Cat_4' 'Cat_5' 'Cat_6']
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = B
+												OutCome = C
+												Gender ['Male']
+														OutCome = C
+										OutCome = B
+										OutCome = B
+								Graduated ['Yes' 'No']
+										OutCome = C
+										OutCome = B
+								OutCome = A
+								OutCome = C
+								OutCome = B
+						Work_Experience [1. 4. 5.]
+								OutCome = C
+								OutCome = C
+								OutCome = B
+						OutCome = D
+						OutCome = D
+				Family_Size [1. 2. 3. 4. 5. 9.]
+						Gender ['Female' 'Male']
+								OutCome = A
+								Graduated ['No' 'Yes']
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = D
+										OutCome = D
+						Work_Experience [1. 2. 4. 5. 7.]
+								Graduated ['No' 'Yes']
+										Spending_Score ['Low' 'High']
+												Var_1 ['Cat_6' 'Cat_4']
+														OutCome = C
+														OutCome = A
+												OutCome = A
+										Gender ['Male' 'Female']
+												Gender ['Male']
+														OutCome = C
+												OutCome = C
+								OutCome = D
+								OutCome = C
+								OutCome = C
+								OutCome = C
+						Var_1 ['Cat_6' 'Cat_2' 'Cat_3' 'Cat_4']
+								Graduated ['Yes' 'No']
+										Gender ['Male' 'Female']
+												Spending_Score ['High' 'Average']
+														OutCome = C
+														OutCome = B
+												OutCome = B
+										Work_Experience [1. 3.]
+												Gender ['Male']
+														OutCome = B
+												OutCome = C
+								OutCome = C
+								OutCome = B
+								OutCome = A
+						Var_1 ['Cat_6' 'Cat_1' 'Cat_3' 'Cat_2' 'Cat_4']
+								Work_Experience [1. 2. 3. 5.]
+										Graduated ['No' 'Yes']
+												Gender ['Male']
+														OutCome = B
+												Spending_Score ['High' 'Low' 'Average']
+														OutCome = C
+														OutCome = C
+														OutCome = C
+										OutCome = B
+										Graduated ['Yes' 'No']
+												OutCome = D
+												OutCome = C
+										Graduated ['No' 'Yes']
+												OutCome = A
+												OutCome = C
+								Gender ['Female' 'Male']
+										OutCome = A
+										OutCome = C
+								OutCome = B
+								Work_Experience [1. 3.]
+										OutCome = A
+										OutCome = B
+								OutCome = B
+						Var_1 ['Cat_6' 'Cat_3' 'Cat_4']
+								Spending_Score ['High' 'Low' 'Average']
+										Work_Experience [1. 2. 5.]
+												Gender ['Male']
+														OutCome = C
+												OutCome = C
+												OutCome = C
+										Ever_Married ['Yes' 'No']
+												OutCome = A
+												OutCome = C
+										Graduated ['No' 'Yes']
+												OutCome = B
+												OutCome = C
+								OutCome = A
+								OutCome = B
+						Graduated ['Yes' 'No']
+								OutCome = A
+								OutCome = D
+				Family_Size [1. 2. 3. 4. 5. 6. 7.]
+						Graduated ['No' 'Yes']
+								OutCome = C
+								OutCome = B
+						Var_1 ['Cat_6' 'Cat_4' 'Cat_7' 'Cat_1']
+								Spending_Score ['High' 'Low' 'Average']
+										Graduated ['No' 'Yes']
+												Gender ['Male']
+														OutCome = A
+												Work_Experience [1. 2. 3. 5.]
+														OutCome = C
+														OutCome = C
+														OutCome = B
+														OutCome = C
+										Gender ['Male' 'Female']
+												Graduated ['No' 'Yes']
+														OutCome = D
+														OutCome = A
+												OutCome = B
+										Graduated ['No' 'Yes']
+												OutCome = B
+												OutCome = C
+								Work_Experience [1. 4.]
+										OutCome = D
+										OutCome = A
+								OutCome = B
+								OutCome = B
+						Spending_Score ['High' 'Average' 'Low']
+								Var_1 ['Cat_6' 'Cat_7']
+										Work_Experience [1. 3. 5.]
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = C
+												OutCome = C
+												OutCome = C
+										OutCome = B
+								OutCome = B
+								OutCome = D
+						Spending_Score ['Low' 'High' 'Average']
+								Graduated ['No' 'Yes']
+										OutCome = D
+										OutCome = B
+								Graduated ['Yes' 'No']
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = C
+										Var_1 ['Cat_6' 'Cat_3']
+												Gender ['Male']
+														OutCome = B
+												OutCome = B
+								Graduated ['No' 'Yes']
+										OutCome = D
+										OutCome = B
+						Gender ['Female' 'Male']
+								OutCome = C
+								Spending_Score ['High' 'Average']
+										OutCome = D
+										OutCome = C
+						OutCome = B
+						OutCome = B
+				Family_Size [1. 2. 3. 4. 5.]
+						Gender ['Male']
+								Gender ['Male']
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = D
+						Graduated ['Yes' 'No']
+								Gender ['Male']
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = C
+								Var_1 ['Cat_4' 'Cat_6']
+										OutCome = D
+										Spending_Score ['High' 'Low']
+												Gender ['Male']
+														OutCome = C
+												Gender ['Male']
+														OutCome = D
+						Work_Experience [1. 3.]
+								Gender ['Male']
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = A
+								OutCome = B
+						Graduated ['Yes' 'No']
+								OutCome = C
+								OutCome = B
+						OutCome = B
+				Family_Size [1. 2. 3. 4. 7.]
+						Work_Experience [1. 2.]
+								Graduated ['No' 'Yes']
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = D
+										OutCome = D
+								OutCome = B
+						Var_1 ['Cat_6' 'Cat_4']
+								Graduated ['Yes' 'No']
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = C
+										Work_Experience [1. 5.]
+												Spending_Score ['High' 'Low']
+														OutCome = B
+														OutCome = A
+												OutCome = C
+								OutCome = D
+						Graduated ['Yes' 'No']
+								Gender ['Male' 'Female']
+										Work_Experience [1. 2.]
+												OutCome = C
+												OutCome = A
+										OutCome = A
+								Gender ['Male']
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = D
+						OutCome = A
+						OutCome = D
+		Spending_Score ['Low' 'Average' 'High']
+				Age [2 3 4 5 6 7 8 9]
+						Var_1 ['Cat_7' 'Cat_4' 'Cat_6']
+								OutCome = B
+								OutCome = D
+								OutCome = A
+						Family_Size [1. 2. 3. 4. 5. 6. 7. 8. 9.]
+								Var_1 ['Cat_6' 'Cat_2' 'Cat_4' 'Cat_3' 'Cat_1']
+										Work_Experience [1. 2. 3. 4. 5. 7.]
+												Graduated ['Yes' 'No']
+														OutCome = A
+														OutCome = B
+												Gender ['Male']
+														OutCome = A
+												OutCome = C
+												Ever_Married ['No' 'Yes']
+														OutCome = B
+														OutCome = A
+												Gender ['Female' 'Male']
+														OutCome = A
+														OutCome = A
+												OutCome = A
+										OutCome = A
+										Gender ['Male' 'Female']
+												OutCome = D
+												OutCome = B
+										Gender ['Female' 'Male']
+												OutCome = A
+												OutCome = D
+										OutCome = B
+								Work_Experience [1. 2. 3. 5. 7. 8.]
+										Var_1 ['Cat_6' 'Cat_7' 'Cat_4' 'Cat_1']
+												Ever_Married ['Yes' 'No']
+														OutCome = A
+														OutCome = A
+												OutCome = A
+												OutCome = A
+												OutCome = C
+										Ever_Married ['No' 'Yes']
+												Graduated ['No' 'Yes']
+														OutCome = D
+														OutCome = A
+												OutCome = A
+										OutCome = D
+										Var_1 ['Cat_6' 'Cat_7' 'Cat_3']
+												Gender ['Male' 'Female']
+														OutCome = A
+														OutCome = B
+												OutCome = A
+												OutCome = D
+										Gender ['Female' 'Male']
+												Gender ['Female']
+														OutCome = B
+												OutCome = A
+										OutCome = B
+								Work_Experience [1. 4. 5. 6. 7. 8.]
+										Var_1 ['Cat_2' 'Cat_4' 'Cat_6' 'Cat_3']
+												OutCome = A
+												OutCome = D
+												Gender ['Male' 'Female']
+														OutCome = B
+														OutCome = D
+												OutCome = B
+										OutCome = C
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = A
+										OutCome = D
+										Gender ['Male' 'Female']
+												OutCome = A
+												OutCome = D
+										OutCome = A
+								Work_Experience [1. 3. 4. 5. 6.]
+										Var_1 ['Cat_6' 'Cat_7' 'Cat_4']
+												Ever_Married ['No' 'Yes']
+														OutCome = D
+														OutCome = A
+												OutCome = C
+												OutCome = D
+										OutCome = B
+										OutCome = A
+										Gender ['Male' 'Female']
+												Ever_Married ['Yes' 'No']
+														OutCome = D
+														OutCome = A
+												OutCome = A
+										OutCome = C
+								Var_1 ['Cat_6' 'Cat_1' 'Cat_2' 'Cat_4' 'Cat_5']
+										Gender ['Male' 'Female']
+												OutCome = D
+												Work_Experience [1. 3.]
+														OutCome = A
+														OutCome = C
+										OutCome = A
+										OutCome = C
+										OutCome = A
+										OutCome = A
+								Graduated ['Yes' 'No']
+										Work_Experience [1. 5.]
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = A
+												OutCome = D
+										OutCome = D
+								Gender ['Male' 'Female']
+										OutCome = D
+										OutCome = A
+								OutCome = D
+								OutCome = C
+						Family_Size [1. 2. 3. 4. 5. 6. 7. 8.]
+								Work_Experience [1. 2. 3. 4. 5. 6. 7.]
+										Var_1 ['Cat_6' 'Cat_3' 'Cat_4' 'Cat_7' 'Cat_1' 'Cat_5']
+												Ever_Married ['No' 'Yes']
+														OutCome = A
+														OutCome = B
+												Ever_Married ['No' 'Yes']
+														OutCome = B
+														OutCome = A
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = D
+												Ever_Married ['Yes' 'No']
+														OutCome = B
+														OutCome = C
+												OutCome = C
+												OutCome = B
+										Var_1 ['Cat_4' 'Cat_6']
+												Gender ['Female' 'Male']
+														OutCome = A
+														OutCome = D
+												Ever_Married ['No' 'Yes']
+														OutCome = C
+														OutCome = B
+										Ever_Married ['Yes' 'No']
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = A
+												OutCome = A
+										Gender ['Female' 'Male']
+												Graduated ['Yes' 'No']
+														OutCome = B
+														OutCome = A
+												OutCome = A
+										Gender ['Female' 'Male']
+												Ever_Married ['No' 'Yes']
+														OutCome = B
+														OutCome = D
+												Graduated ['Yes' 'No']
+														OutCome = A
+														OutCome = B
+										OutCome = A
+										Gender ['Male' 'Female']
+												OutCome = B
+												Var_1 ['Cat_4' 'Cat_6']
+														OutCome = A
+														OutCome = D
+								Work_Experience [1. 2. 3. 4. 5. 6. 7.]
+										Var_1 ['Cat_6' 'Cat_5' 'Cat_7' 'Cat_3' 'Cat_4' 'Cat_2' 'Cat_1']
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = B
+												OutCome = D
+												Gender ['Female' 'Male']
+														OutCome = A
+														OutCome = B
+												Gender ['Male' 'Female']
+														OutCome = D
+														OutCome = C
+												Graduated ['Yes' 'No']
+														OutCome = A
+														OutCome = D
+												Ever_Married ['No' 'Yes']
+														OutCome = C
+														OutCome = A
+												OutCome = B
+										Ever_Married ['Yes' 'No']
+												OutCome = C
+												Var_1 ['Cat_6' 'Cat_2']
+														OutCome = A
+														OutCome = B
+										Graduated ['Yes' 'No']
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = A
+												Gender ['Female']
+														OutCome = A
+										Gender ['Male' 'Female']
+												Ever_Married ['Yes' 'No']
+														OutCome = C
+														OutCome = A
+												OutCome = B
+										Gender ['Female' 'Male']
+												Ever_Married ['No' 'Yes']
+														OutCome = C
+														OutCome = C
+												Var_1 ['Cat_6' 'Cat_5' 'Cat_3']
+														OutCome = A
+														OutCome = A
+														OutCome = A
+										Gender ['Male' 'Female']
+												OutCome = C
+												OutCome = A
+										Gender ['Male' 'Female']
+												OutCome = B
+												Gender ['Female']
+														OutCome = A
+								Var_1 ['Cat_6' 'Cat_4' 'Cat_2' 'Cat_7' 'Cat_3' 'Cat_5']
+										Work_Experience [1. 2. 4. 5.]
+												Ever_Married ['Yes' 'No']
+														OutCome = A
+														OutCome = B
+												OutCome = C
+												Gender ['Male']
+														OutCome = D
+												Gender ['Female' 'Male']
+														OutCome = D
+														OutCome = A
+										Gender ['Male' 'Female']
+												Ever_Married ['No' 'Yes']
+														OutCome = A
+														OutCome = A
+												OutCome = D
+										OutCome = B
+										OutCome = A
+										Gender ['Female' 'Male']
+												OutCome = A
+												Ever_Married ['No' 'Yes']
+														OutCome = D
+														OutCome = C
+										OutCome = D
+								Work_Experience [1. 2. 3. 4. 5.]
+										Var_1 ['Cat_3' 'Cat_6' 'Cat_7' 'Cat_4']
+												OutCome = A
+												Gender ['Male' 'Female']
+														OutCome = A
+														OutCome = D
+												OutCome = C
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = A
+										OutCome = A
+										Var_1 ['Cat_2' 'Cat_6']
+												OutCome = A
+												OutCome = C
+										OutCome = A
+										Var_1 ['Cat_4' 'Cat_7']
+												OutCome = D
+												OutCome = A
+								Var_1 ['Cat_6' 'Cat_1' 'Cat_4' 'Cat_3']
+										Work_Experience [1. 2. 6.]
+												OutCome = C
+												OutCome = A
+												OutCome = C
+										OutCome = B
+										OutCome = A
+										OutCome = C
+								Var_1 ['Cat_4' 'Cat_6' 'Cat_3']
+										OutCome = D
+										OutCome = A
+										OutCome = A
+								Gender ['Female' 'Male']
+										OutCome = C
+										OutCome = A
+								Graduated ['No' 'Yes']
+										OutCome = C
+										OutCome = B
+						Var_1 ['Cat_6' 'Cat_4' 'Cat_2' 'Cat_7' 'Cat_3' 'Cat_1' 'Cat_5']
+								Family_Size [1. 2. 3. 4. 5. 6. 9.]
+										Work_Experience [1. 2. 3. 4. 5. 6. 7. 8.]
+												Gender ['Female' 'Male']
+														OutCome = A
+														OutCome = B
+												Ever_Married ['Yes' 'No']
+														OutCome = D
+														OutCome = B
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = B
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = A
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = A
+												Gender ['Female']
+														OutCome = C
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = C
+												OutCome = A
+										Gender ['Male' 'Female']
+												Work_Experience [1. 2. 3. 4. 5. 6. 8.]
+														OutCome = A
+														OutCome = B
+														OutCome = B
+														OutCome = B
+														OutCome = A
+														OutCome = C
+														OutCome = A
+												Work_Experience [1. 2. 4. 5.]
+														OutCome = C
+														OutCome = B
+														OutCome = C
+														OutCome = B
+										Gender ['Female' 'Male']
+												Ever_Married ['Yes' 'No']
+														OutCome = C
+														OutCome = A
+												Ever_Married ['No' 'Yes']
+														OutCome = A
+														OutCome = B
+										Gender ['Female' 'Male']
+												Work_Experience [1. 5.]
+														OutCome = A
+														OutCome = C
+												Work_Experience [1. 3.]
+														OutCome = D
+														OutCome = A
+										OutCome = C
+										OutCome = B
+										OutCome = C
+								Work_Experience [1. 3. 5. 7.]
+										Graduated ['Yes' 'No']
+												Family_Size [1. 2. 3. 4.]
+														OutCome = B
+														OutCome = B
+														OutCome = A
+														OutCome = B
+												Gender ['Male' 'Female']
+														OutCome = A
+														OutCome = D
+										OutCome = C
+										OutCome = D
+										OutCome = A
+								Family_Size [1. 2. 3. 4. 5.]
+										Gender ['Female' 'Male']
+												OutCome = B
+												Ever_Married ['Yes' 'No']
+														OutCome = D
+														OutCome = A
+										Work_Experience [1. 2. 3. 8.]
+												OutCome = C
+												OutCome = A
+												OutCome = A
+												OutCome = A
+										OutCome = B
+										OutCome = C
+										OutCome = B
+								Gender ['Female' 'Male']
+										Ever_Married ['Yes' 'No']
+												OutCome = C
+												OutCome = D
+										OutCome = A
+								Family_Size [1. 2. 3. 4. 5.]
+										Work_Experience [1. 2. 3. 5.]
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = A
+												Gender ['Male' 'Female']
+														OutCome = B
+														OutCome = A
+												OutCome = A
+												OutCome = B
+										Work_Experience [1. 4. 6.]
+												Ever_Married ['Yes' 'No']
+														OutCome = B
+														OutCome = B
+												OutCome = B
+												OutCome = A
+										Gender ['Male' 'Female']
+												OutCome = C
+												OutCome = B
+										Gender ['Female' 'Male']
+												OutCome = A
+												Work_Experience [1. 4.]
+														OutCome = C
+														OutCome = A
+										OutCome = A
+								Ever_Married ['Yes' 'No']
+										OutCome = A
+										Graduated ['No' 'Yes']
+												OutCome = B
+												OutCome = C
+								Family_Size [1. 2. 3.]
+										OutCome = B
+										OutCome = C
+										OutCome = B
+						Work_Experience [1. 2. 3. 4. 5. 7.]
+								Family_Size [1. 2. 3. 4. 5.]
+										Var_1 ['Cat_6' 'Cat_3' 'Cat_4']
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = B
+												Gender ['Female' 'Male']
+														OutCome = A
+														OutCome = B
+												Gender ['Female' 'Male']
+														OutCome = D
+														OutCome = A
+										Var_1 ['Cat_6' 'Cat_4' 'Cat_3' 'Cat_2' 'Cat_7']
+												Ever_Married ['No' 'Yes']
+														OutCome = A
+														OutCome = C
+												Ever_Married ['No' 'Yes']
+														OutCome = C
+														OutCome = B
+												Ever_Married ['Yes' 'No']
+														OutCome = B
+														OutCome = B
+												OutCome = A
+												OutCome = B
+										Gender ['Male' 'Female']
+												Ever_Married ['No' 'Yes']
+														OutCome = B
+														OutCome = A
+												OutCome = C
+										Var_1 ['Cat_6' 'Cat_3' 'Cat_4']
+												Gender ['Male']
+														OutCome = C
+												OutCome = A
+												OutCome = C
+										OutCome = D
+								Var_1 ['Cat_6' 'Cat_3' 'Cat_4' 'Cat_7' 'Cat_2']
+										Family_Size [1. 2. 4.]
+												Gender ['Male' 'Female']
+														OutCome = B
+														OutCome = A
+												Gender ['Male' 'Female']
+														OutCome = A
+														OutCome = C
+												OutCome = B
+										Gender ['Male' 'Female']
+												OutCome = A
+												OutCome = B
+										OutCome = A
+										OutCome = A
+										OutCome = B
+								Ever_Married ['Yes' 'No']
+										OutCome = B
+										OutCome = C
+								Var_1 ['Cat_6' 'Cat_3' 'Cat_4']
+										Family_Size [1. 2.]
+												OutCome = C
+												Gender ['Male' 'Female']
+														OutCome = B
+														OutCome = A
+										OutCome = B
+										OutCome = B
+								Family_Size [1. 2. 3. 4. 5.]
+										Gender ['Female' 'Male']
+												Gender ['Female']
+														OutCome = B
+												OutCome = B
+										Gender ['Female' 'Male']
+												Graduated ['No' 'Yes']
+														OutCome = B
+														OutCome = C
+												OutCome = B
+										OutCome = C
+										OutCome = C
+										OutCome = A
+								OutCome = C
+						Var_1 ['Cat_3' 'Cat_6' 'Cat_4' 'Cat_2' 'Cat_1' 'Cat_7']
+								Gender ['Male' 'Female']
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = A
+										OutCome = C
+								Work_Experience [1. 2. 3. 4. 5. 6. 7. 8.]
+										Family_Size [1. 2. 3.]
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = B
+												Graduated ['Yes' 'No']
+														OutCome = B
+														OutCome = A
+												OutCome = C
+										Graduated ['Yes' 'No']
+												Family_Size [1. 2.]
+														OutCome = B
+														OutCome = B
+												OutCome = A
+										OutCome = B
+										Gender ['Female' 'Male']
+												Ever_Married ['No' 'Yes']
+														OutCome = B
+														OutCome = A
+												OutCome = B
+										Gender ['Female' 'Male']
+												Family_Size [1. 2.]
+														OutCome = B
+														OutCome = C
+												OutCome = A
+										OutCome = D
+										OutCome = B
+										OutCome = B
+								Family_Size [1. 3. 4.]
+										OutCome = B
+										OutCome = B
+										Gender ['Male' 'Female']
+												OutCome = B
+												OutCome = C
+								OutCome = C
+								OutCome = C
+								OutCome = D
+						Ever_Married ['Yes' 'No']
+								Gender ['Male' 'Female']
+										Graduated ['Yes' 'No']
+												Work_Experience [1. 2.]
+														OutCome = A
+														OutCome = B
+												OutCome = B
+										OutCome = A
+								Family_Size [1. 2.]
+										OutCome = C
+										OutCome = B
+						Work_Experience [1. 4.]
+								OutCome = A
+								OutCome = D
+				Age [3 4 5 6 7 8 9]
+						Work_Experience [1. 2. 3. 4. 5. 7.]
+								Var_1 ['Cat_4' 'Cat_3' 'Cat_6']
+										Graduated ['No' 'Yes']
+												OutCome = D
+												OutCome = B
+										OutCome = B
+										OutCome = C
+								OutCome = B
+								Gender ['Female' 'Male']
+										OutCome = C
+										OutCome = A
+								Graduated ['Yes' 'No']
+										OutCome = A
+										OutCome = B
+								Gender ['Female' 'Male']
+										OutCome = C
+										Family_Size [2. 3.]
+												Gender ['Male']
+														OutCome = B
+												OutCome = C
+								OutCome = B
+						Var_1 ['Cat_6' 'Cat_7' 'Cat_4' 'Cat_1' 'Cat_2' 'Cat_3' 'Cat_5']
+								Work_Experience [1. 2. 3. 4. 5. 7.]
+										Family_Size [2. 3. 4. 5.]
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = C
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = C
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = C
+												OutCome = C
+										Family_Size [2. 3. 4.]
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = C
+												Gender ['Male']
+														OutCome = C
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = B
+										Graduated ['Yes' 'No']
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = B
+												OutCome = B
+										OutCome = C
+										Family_Size [2. 3.]
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = C
+												Gender ['Female' 'Male']
+														OutCome = A
+														OutCome = B
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = A
+								Graduated ['No' 'Yes']
+										OutCome = A
+										OutCome = C
+								Work_Experience [1. 2. 4. 5.]
+										Gender ['Male' 'Female']
+												Graduated ['Yes' 'No']
+														OutCome = B
+														OutCome = B
+												Family_Size [2. 4.]
+														OutCome = D
+														OutCome = B
+										OutCome = A
+										OutCome = B
+										Gender ['Female' 'Male']
+												OutCome = A
+												OutCome = B
+								Work_Experience [1. 3. 4.]
+										Gender ['Female' 'Male']
+												OutCome = B
+												OutCome = D
+										OutCome = C
+										OutCome = B
+								Family_Size [2. 3. 5.]
+										Work_Experience [1. 3. 4.]
+												Gender ['Male']
+														OutCome = C
+												OutCome = C
+												OutCome = C
+										OutCome = C
+										OutCome = B
+								Work_Experience [1. 2. 3. 4. 5.]
+										Family_Size [2. 3. 4. 6.]
+												Gender ['Female' 'Male']
+														OutCome = D
+														OutCome = C
+												Gender ['Male' 'Female']
+														OutCome = B
+														OutCome = B
+												Gender ['Male']
+														OutCome = B
+												OutCome = B
+										OutCome = C
+										OutCome = B
+										OutCome = A
+										OutCome = B
+								OutCome = A
+						Var_1 ['Cat_6' 'Cat_7' 'Cat_4' 'Cat_1' 'Cat_3' 'Cat_2' 'Cat_5']
+								Family_Size [2. 3. 4. 5. 6. 7.]
+										Work_Experience [1. 2. 3. 4. 5. 7.]
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = C
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = C
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = C
+												OutCome = C
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = B
+												Gender ['Male' 'Female']
+														OutCome = B
+														OutCome = C
+										Work_Experience [1. 2. 3. 4. 5.]
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = A
+												OutCome = C
+												OutCome = C
+												OutCome = B
+												Gender ['Male']
+														OutCome = A
+										Work_Experience [1. 2. 3. 4. 6. 7.]
+												Graduated ['Yes' 'No']
+														OutCome = B
+														OutCome = A
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = B
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = C
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = B
+												OutCome = C
+												OutCome = C
+										Work_Experience [1. 3. 4. 5.]
+												Graduated ['No' 'Yes']
+														OutCome = B
+														OutCome = C
+												OutCome = B
+												OutCome = B
+												OutCome = B
+										Graduated ['Yes' 'No']
+												OutCome = C
+												OutCome = B
+										OutCome = C
+								Family_Size [2. 3. 4. 5. 6.]
+										OutCome = C
+										OutCome = C
+										Gender ['Female' 'Male']
+												Gender ['Female']
+														OutCome = B
+												OutCome = C
+										OutCome = C
+										OutCome = B
+								Family_Size [2. 3. 4. 5.]
+										Graduated ['Yes' 'No']
+												Gender ['Female' 'Male']
+														OutCome = A
+														OutCome = C
+												Gender ['Female' 'Male']
+														OutCome = D
+														OutCome = A
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = A
+										Graduated ['No' 'Yes']
+												OutCome = A
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = C
+										Work_Experience [1. 3.]
+												OutCome = C
+												OutCome = B
+								Work_Experience [1. 5.]
+										Family_Size [2. 4.]
+												OutCome = C
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = A
+										OutCome = B
+								Family_Size [2. 4. 5.]
+										Gender ['Male' 'Female']
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = B
+												OutCome = B
+										Gender ['Female' 'Male']
+												Graduated ['No' 'Yes']
+														OutCome = C
+														OutCome = C
+												OutCome = C
+										OutCome = B
+								Work_Experience [1. 2. 3. 5.]
+										Family_Size [2. 3. 4. 5.]
+												OutCome = C
+												OutCome = C
+												Gender ['Female']
+														OutCome = C
+												OutCome = C
+										OutCome = C
+										OutCome = A
+										OutCome = C
+								OutCome = C
+						Var_1 ['Cat_6' 'Cat_4' 'Cat_3' 'Cat_2' 'Cat_7' 'Cat_5' 'Cat_1']
+								Graduated ['Yes' 'No']
+										Gender ['Male' 'Female']
+												Family_Size [2. 3. 4. 5. 6.]
+														OutCome = C
+														OutCome = C
+														OutCome = C
+														OutCome = C
+														OutCome = C
+												Work_Experience [1. 2. 3. 4. 5. 8.]
+														OutCome = C
+														OutCome = C
+														OutCome = C
+														OutCome = C
+														OutCome = C
+														OutCome = C
+										Family_Size [2. 3. 4. 6.]
+												Work_Experience [1. 2.]
+														OutCome = A
+														OutCome = C
+												OutCome = C
+												OutCome = C
+												OutCome = A
+								Family_Size [2. 3. 4. 5. 6. 7.]
+										Gender ['Female' 'Male']
+												OutCome = C
+												Graduated ['Yes' 'No']
+														OutCome = B
+														OutCome = B
+										Work_Experience [1. 2.]
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = D
+												OutCome = B
+										Graduated ['No' 'Yes']
+												Work_Experience [1. 2.]
+														OutCome = C
+														OutCome = A
+												OutCome = C
+										OutCome = C
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = B
+										OutCome = A
+								Family_Size [2. 3. 4. 6.]
+										Work_Experience [1. 3.]
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = C
+												OutCome = C
+										OutCome = C
+										Work_Experience [1. 3.]
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = C
+												OutCome = B
+										OutCome = C
+								Graduated ['Yes' 'No']
+										Gender ['Female' 'Male']
+												OutCome = C
+												Family_Size [2. 3. 4.]
+														OutCome = C
+														OutCome = D
+														OutCome = C
+										OutCome = B
+								Gender ['Female' 'Male']
+										OutCome = C
+										Family_Size [2. 3. 4.]
+												OutCome = A
+												OutCome = C
+												OutCome = A
+								OutCome = C
+								OutCome = C
+						Var_1 ['Cat_6' 'Cat_7' 'Cat_3' 'Cat_5' 'Cat_4' 'Cat_2']
+								Family_Size [2. 3. 4. 5. 7.]
+										Work_Experience [1. 2. 3. 5.]
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = C
+												OutCome = C
+												OutCome = C
+												OutCome = C
+										Work_Experience [1. 2. 3. 4.]
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = C
+												OutCome = C
+												OutCome = A
+												OutCome = C
+										Work_Experience [1. 2. 3.]
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = C
+												OutCome = B
+												OutCome = C
+										Gender ['Female' 'Male']
+												OutCome = C
+												Gender ['Male']
+														OutCome = C
+										OutCome = C
+								OutCome = A
+								Family_Size [2. 3. 4. 5. 9.]
+										Gender ['Female' 'Male']
+												OutCome = C
+												Gender ['Male']
+														OutCome = C
+										Gender ['Female' 'Male']
+												OutCome = C
+												Gender ['Male']
+														OutCome = C
+										OutCome = A
+										OutCome = C
+										OutCome = C
+								OutCome = C
+								Family_Size [2. 3. 4.]
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = B
+										Gender ['Female' 'Male']
+												OutCome = B
+												OutCome = C
+										OutCome = C
+								Family_Size [2. 3. 4.]
+										OutCome = B
+										OutCome = C
+										OutCome = B
+						Var_1 ['Cat_6' 'Cat_1' 'Cat_4' 'Cat_3']
+								Family_Size [2. 3. 4. 5.]
+										Graduated ['Yes' 'No']
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = C
+												OutCome = C
+										Gender ['Male' 'Female']
+												OutCome = C
+												Work_Experience [1. 2.]
+														OutCome = B
+														OutCome = C
+										OutCome = C
+										OutCome = C
+								OutCome = C
+								OutCome = C
+								OutCome = C
+						OutCome = C
+				Age [2 3 4 5 6 7 8 9]
+						OutCome = D
+						OutCome = D
+						Work_Experience [1. 2. 3. 4. 5. 6.]
+								Var_1 ['Cat_6' 'Cat_7' 'Cat_3']
+										Family_Size [2. 3.]
+												OutCome = A
+												Gender ['Male' 'Female']
+														OutCome = B
+														OutCome = B
+										OutCome = C
+										OutCome = A
+								OutCome = C
+								Var_1 ['Cat_4' 'Cat_6']
+										OutCome = B
+										OutCome = C
+								OutCome = B
+								Family_Size [2. 3. 5.]
+										OutCome = C
+										OutCome = C
+										Gender ['Female' 'Male']
+												OutCome = B
+												OutCome = A
+								OutCome = B
+						Work_Experience [1. 2. 3. 4. 5. 6. 7.]
+								Gender ['Female' 'Male']
+										Var_1 ['Cat_6' 'Cat_7' 'Cat_2' 'Cat_3']
+												Family_Size [2. 3. 4. 5. 6.]
+														OutCome = B
+														OutCome = C
+														OutCome = C
+														OutCome = C
+														OutCome = B
+												OutCome = B
+												OutCome = C
+												OutCome = C
+										Family_Size [2. 3. 4. 5. 9.]
+												OutCome = B
+												Graduated ['No' 'Yes']
+														OutCome = B
+														OutCome = C
+												Var_1 ['Cat_6' 'Cat_3']
+														OutCome = A
+														OutCome = B
+												OutCome = B
+												OutCome = B
+								Var_1 ['Cat_6' 'Cat_2' 'Cat_4']
+										Family_Size [2. 3. 5.]
+												OutCome = C
+												OutCome = A
+												OutCome = C
+										OutCome = C
+										OutCome = B
+								Family_Size [3. 5.]
+										OutCome = B
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = C
+								Family_Size [2. 4.]
+										OutCome = C
+										Graduated ['Yes' 'No']
+												OutCome = A
+												OutCome = B
+								Family_Size [2. 3. 4.]
+										Gender ['Male' 'Female']
+												OutCome = A
+												OutCome = C
+										OutCome = B
+										OutCome = C
+								OutCome = A
+								OutCome = D
+						Var_1 ['Cat_4' 'Cat_6' 'Cat_3' 'Cat_2' 'Cat_7' 'Cat_1']
+								Work_Experience [1. 2. 4. 5.]
+										OutCome = D
+										OutCome = D
+										OutCome = B
+										OutCome = A
+								Family_Size [1. 2. 3. 4. 5.]
+										OutCome = B
+										Gender ['Female' 'Male']
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = C
+												Gender ['Male']
+														OutCome = D
+										Gender ['Male' 'Female']
+												Graduated ['No' 'Yes']
+														OutCome = D
+														OutCome = D
+												Gender ['Female']
+														OutCome = C
+										Graduated ['Yes' 'No']
+												Work_Experience [1. 3.]
+														OutCome = C
+														OutCome = B
+												OutCome = A
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = C
+								Family_Size [2. 3. 5.]
+										Gender ['Female' 'Male']
+												OutCome = C
+												OutCome = A
+										OutCome = C
+										OutCome = A
+								Family_Size [2. 3. 7.]
+										OutCome = C
+										OutCome = C
+										OutCome = B
+								OutCome = D
+								OutCome = C
+						Work_Experience [1. 2. 3. 4. 5.]
+								Var_1 ['Cat_6' 'Cat_4' 'Cat_3']
+										Family_Size [2. 3. 4.]
+												Gender ['Male' 'Female']
+														OutCome = B
+														OutCome = C
+												Gender ['Female']
+														OutCome = C
+												OutCome = C
+										OutCome = A
+										OutCome = C
+								OutCome = B
+								Gender ['Male' 'Female']
+										OutCome = A
+										OutCome = C
+								OutCome = D
+								OutCome = C
+						Var_1 ['Cat_6' 'Cat_2' 'Cat_4' 'Cat_1' 'Cat_7']
+								Gender ['Female' 'Male']
+										Family_Size [2. 3.]
+												Work_Experience [1. 2. 3.]
+														OutCome = C
+														OutCome = C
+														OutCome = C
+												OutCome = B
+										Work_Experience [1. 3.]
+												Gender ['Male']
+														OutCome = B
+												OutCome = C
+								OutCome = C
+								OutCome = B
+								OutCome = B
+								OutCome = C
+						Graduated ['Yes' 'No']
+								Work_Experience [1. 2.]
+										Gender ['Female' 'Male']
+												Family_Size [2. 3.]
+														OutCome = C
+														OutCome = C
+												OutCome = C
+										OutCome = A
+								OutCome = A
+		Age [2 3 4 5 6 7 8 9]
+				Family_Size [2. 3. 4. 5. 6.]
+						Var_1 ['Cat_4' 'Cat_6' 'Cat_3']
+								OutCome = D
+								OutCome = D
+								OutCome = A
+						OutCome = D
+						OutCome = D
+						Var_1 ['Cat_3' 'Cat_4' 'Cat_2']
+								OutCome = D
+								OutCome = C
+								OutCome = C
+						Var_1 ['Cat_4' 'Cat_6']
+								OutCome = D
+								OutCome = B
+				Family_Size [1. 2. 3. 4. 5. 6. 8. 9.]
+						Work_Experience [1. 2. 3. 4. 5. 8.]
+								Var_1 ['Cat_6' 'Cat_4' 'Cat_3']
+										Gender ['Female' 'Male']
+												OutCome = D
+												Graduated ['Yes' 'No']
+														OutCome = A
+														OutCome = A
+										OutCome = A
+										OutCome = A
+								OutCome = A
+								OutCome = B
+								Graduated ['Yes' 'No']
+										Var_1 ['Cat_2' 'Cat_6']
+												OutCome = D
+												OutCome = A
+										OutCome = D
+								Gender ['Female' 'Male']
+										OutCome = A
+										OutCome = D
+								OutCome = A
+						Var_1 ['Cat_4' 'Cat_6' 'Cat_3' 'Cat_7' 'Cat_2' 'Cat_5']
+								Work_Experience [1. 2. 3.]
+										Gender ['Male' 'Female']
+												Spending_Score ['Average' 'Low']
+														OutCome = B
+														OutCome = A
+												Graduated ['Yes' 'No']
+														OutCome = D
+														OutCome = D
+										Gender ['Male' 'Female']
+												OutCome = D
+												OutCome = B
+										OutCome = D
+								Graduated ['No' 'Yes']
+										Work_Experience [1. 3. 5.]
+												Gender ['Male' 'Female']
+														OutCome = D
+														OutCome = A
+												OutCome = D
+												Gender ['Male' 'Female']
+														OutCome = A
+														OutCome = D
+										Ever_Married ['No' 'Yes']
+												Gender ['Male']
+														OutCome = D
+												OutCome = D
+								Spending_Score ['Low' 'High']
+										Gender ['Female' 'Male']
+												Ever_Married ['Yes' 'No']
+														OutCome = C
+														OutCome = D
+												Ever_Married ['Yes' 'No']
+														OutCome = D
+														OutCome = A
+										OutCome = B
+								Gender ['Female' 'Male']
+										Ever_Married ['No' 'Yes']
+												OutCome = D
+												OutCome = B
+										OutCome = A
+								OutCome = A
+								OutCome = D
+						Work_Experience [1. 3. 4. 5. 6. 7.]
+								Var_1 ['Cat_6' 'Cat_1' 'Cat_3' 'Cat_7']
+										Gender ['Male' 'Female']
+												Graduated ['No' 'Yes']
+														OutCome = D
+														OutCome = D
+												Graduated ['Yes' 'No']
+														OutCome = B
+														OutCome = B
+										OutCome = D
+										OutCome = C
+										OutCome = A
+								Var_1 ['Cat_2' 'Cat_6']
+										OutCome = D
+										OutCome = C
+								OutCome = C
+								Ever_Married ['No' 'Yes']
+										Var_1 ['Cat_6' 'Cat_7']
+												Gender ['Male']
+														OutCome = A
+												OutCome = D
+										OutCome = D
+								OutCome = C
+								OutCome = D
+						Var_1 ['Cat_6' 'Cat_3' 'Cat_4' 'Cat_1' 'Cat_2' 'Cat_7']
+								Work_Experience [1. 2. 3. 5.]
+										Gender ['Male' 'Female']
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = D
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = D
+										OutCome = C
+										OutCome = D
+										Gender ['Male' 'Female']
+												Gender ['Male']
+														OutCome = D
+												Graduated ['No' 'Yes']
+														OutCome = A
+														OutCome = D
+								OutCome = C
+								Graduated ['No' 'Yes']
+										OutCome = A
+										OutCome = B
+								OutCome = D
+								Gender ['Female' 'Male']
+										Work_Experience [2. 4.]
+												OutCome = D
+												OutCome = C
+										OutCome = D
+								OutCome = B
+						Work_Experience [1. 3. 5. 6.]
+								Var_1 ['Cat_6' 'Cat_3' 'Cat_2' 'Cat_4']
+										Gender ['Male' 'Female']
+												Graduated ['Yes' 'No']
+														OutCome = B
+														OutCome = B
+												OutCome = C
+										Graduated ['No' 'Yes']
+												OutCome = A
+												OutCome = D
+										Gender ['Male' 'Female']
+												OutCome = D
+												OutCome = A
+										OutCome = D
+								OutCome = B
+								OutCome = B
+								OutCome = D
+						Work_Experience [1. 4. 5.]
+								OutCome = B
+								OutCome = C
+								OutCome = D
+						Ever_Married ['No' 'Yes']
+								OutCome = C
+								OutCome = D
+						OutCome = B
+				Family_Size [1. 2. 3. 4. 5. 6. 7. 8. 9.]
+						Graduated ['Yes' 'No']
+								Var_1 ['Cat_2' 'Cat_6' 'Cat_3' 'Cat_4']
+										OutCome = B
+										Gender ['Male' 'Female']
+												OutCome = A
+												Ever_Married ['No' 'Yes']
+														OutCome = A
+														OutCome = B
+										OutCome = B
+										Work_Experience [1. 5.]
+												OutCome = A
+												OutCome = B
+								Var_1 ['Cat_4' 'Cat_7' 'Cat_6' 'Cat_3']
+										Ever_Married ['No' 'Yes']
+												OutCome = D
+												OutCome = A
+										OutCome = D
+										Gender ['Female' 'Male']
+												Gender ['Female']
+														OutCome = C
+												Gender ['Male']
+														OutCome = A
+										OutCome = D
+						Work_Experience [1. 2. 3. 4. 5. 6. 7. 8.]
+								Gender ['Male' 'Female']
+										Var_1 ['Cat_6' 'Cat_3' 'Cat_4' 'Cat_1']
+												Ever_Married ['Yes' 'No']
+														OutCome = D
+														OutCome = B
+												Ever_Married ['No' 'Yes']
+														OutCome = B
+														OutCome = D
+												Graduated ['Yes' 'No']
+														OutCome = B
+														OutCome = A
+												OutCome = D
+										Ever_Married ['No' 'Yes']
+												Graduated ['No' 'Yes']
+														OutCome = A
+														OutCome = D
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = D
+								Gender ['Female' 'Male']
+										OutCome = A
+										OutCome = D
+								Spending_Score ['Low' 'Average' 'High']
+										OutCome = D
+										OutCome = A
+										OutCome = D
+								Gender ['Female' 'Male']
+										Ever_Married ['No' 'Yes']
+												OutCome = A
+												OutCome = C
+										OutCome = A
+								Spending_Score ['Average' 'Low' 'High']
+										Gender ['Male' 'Female']
+												OutCome = A
+												OutCome = C
+										Var_1 ['Cat_6' 'Cat_4']
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = B
+												OutCome = D
+										OutCome = D
+								Ever_Married ['Yes' 'No']
+										OutCome = A
+										OutCome = D
+								OutCome = B
+								OutCome = A
+						Work_Experience [1. 2. 3. 4. 5. 6.]
+								Var_1 ['Cat_6' 'Cat_4' 'Cat_3']
+										Ever_Married ['No' 'Yes']
+												Gender ['Female' 'Male']
+														OutCome = D
+														OutCome = A
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = D
+										Ever_Married ['No' 'Yes']
+												OutCome = D
+												OutCome = A
+										Gender ['Male' 'Female']
+												OutCome = D
+												OutCome = A
+								OutCome = D
+								Gender ['Female' 'Male']
+										OutCome = A
+										OutCome = C
+								OutCome = A
+								OutCome = A
+								OutCome = A
+						Spending_Score ['Low' 'Average' 'High']
+								Work_Experience [1. 2. 4. 5. 7.]
+										Graduated ['Yes' 'No']
+												Gender ['Male' 'Female']
+														OutCome = D
+														OutCome = A
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = D
+										Graduated ['No' 'Yes']
+												OutCome = A
+												OutCome = C
+										OutCome = D
+										OutCome = D
+										OutCome = D
+								Work_Experience [1. 2. 5.]
+										Var_1 ['Cat_4' 'Cat_6']
+												OutCome = C
+												OutCome = B
+										OutCome = A
+										OutCome = C
+								Var_1 ['Cat_7' 'Cat_3' 'Cat_6']
+										OutCome = A
+										OutCome = C
+										OutCome = D
+						Var_1 ['Cat_6' 'Cat_4' 'Cat_2' 'Cat_3']
+								Ever_Married ['No' 'Yes']
+										Gender ['Male' 'Female']
+												OutCome = D
+												Graduated ['No' 'Yes']
+														OutCome = D
+														OutCome = D
+										Graduated ['Yes' 'No']
+												OutCome = B
+												Gender ['Male' 'Female']
+														OutCome = D
+														OutCome = A
+								OutCome = C
+								OutCome = A
+								OutCome = D
+						Gender ['Male' 'Female']
+								Var_1 ['Cat_4' 'Cat_2']
+										OutCome = D
+										OutCome = A
+								OutCome = C
+						Gender ['Female' 'Male']
+								OutCome = C
+								OutCome = D
+						OutCome = C
+						OutCome = A
+				Family_Size [1. 2. 3. 4. 5. 6. 9.]
+						Var_1 ['Cat_4' 'Cat_6' 'Cat_3' 'Cat_2']
+								Ever_Married ['No' 'Yes']
+										OutCome = A
+										OutCome = B
+								Gender ['Female' 'Male']
+										Ever_Married ['No' 'Yes']
+												OutCome = A
+												Work_Experience [1. 5.]
+														OutCome = B
+														OutCome = A
+										Work_Experience [1. 5.]
+												Ever_Married ['No' 'Yes']
+														OutCome = A
+														OutCome = A
+												OutCome = B
+								Work_Experience [1. 4.]
+										OutCome = D
+										OutCome = B
+								OutCome = A
+						Var_1 ['Cat_2' 'Cat_6' 'Cat_3' 'Cat_4' 'Cat_7']
+								Gender ['Female' 'Male']
+										OutCome = A
+										OutCome = B
+								Work_Experience [1. 3. 4. 5. 8.]
+										Ever_Married ['Yes' 'No']
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = C
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = D
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = C
+										OutCome = C
+										Ever_Married ['No' 'Yes']
+												OutCome = C
+												OutCome = B
+										OutCome = A
+								Gender ['Female' 'Male']
+										Graduated ['Yes' 'No']
+												OutCome = A
+												OutCome = C
+										OutCome = A
+								OutCome = A
+								OutCome = D
+						Var_1 ['Cat_5' 'Cat_4' 'Cat_3' 'Cat_2']
+								OutCome = B
+								OutCome = A
+								Spending_Score ['Average' 'Low']
+										OutCome = A
+										OutCome = D
+								OutCome = A
+						Spending_Score ['High' 'Low' 'Average']
+								OutCome = D
+								OutCome = A
+								Graduated ['Yes' 'No']
+										Gender ['Male' 'Female']
+												Gender ['Male']
+														OutCome = B
+												Gender ['Female']
+														OutCome = C
+										OutCome = A
+						Var_1 ['Cat_4' 'Cat_6' 'Cat_2']
+								Graduated ['No' 'Yes']
+										OutCome = A
+										OutCome = C
+								OutCome = B
+								OutCome = C
+						Work_Experience [1. 3. 8.]
+								Ever_Married ['Yes' 'No']
+										OutCome = B
+										OutCome = C
+								OutCome = B
+								OutCome = D
+						OutCome = D
+				Spending_Score ['Average' 'Low' 'High']
+						Work_Experience [1. 2. 3. 8.]
+								Family_Size [2. 3. 4.]
+										Graduated ['Yes' 'No']
+												OutCome = C
+												OutCome = B
+										Graduated ['Yes' 'No']
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = C
+												OutCome = C
+										Graduated ['Yes' 'No']
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = C
+												OutCome = B
+								OutCome = A
+								Gender ['Male' 'Female']
+										OutCome = C
+										OutCome = D
+								OutCome = B
+						Work_Experience [1. 2. 3. 5.]
+								Family_Size [1. 2. 3. 4. 7.]
+										Gender ['Male' 'Female']
+												Ever_Married ['No' 'Yes']
+														OutCome = A
+														OutCome = A
+												OutCome = B
+										Gender ['Male' 'Female']
+												OutCome = A
+												Var_1 ['Cat_6' 'Cat_7']
+														OutCome = D
+														OutCome = A
+										Gender ['Female' 'Male']
+												Gender ['Female']
+														OutCome = C
+												Gender ['Male']
+														OutCome = A
+										OutCome = B
+										OutCome = B
+								Family_Size [1. 2.]
+										OutCome = A
+										OutCome = C
+								Gender ['Female' 'Male']
+										OutCome = A
+										OutCome = B
+								OutCome = D
+						Family_Size [1. 2. 5.]
+								OutCome = D
+								Var_1 ['Cat_6' 'Cat_3']
+										OutCome = B
+										OutCome = C
+								OutCome = C
+				Spending_Score ['Low' 'Average' 'High']
+						Graduated ['Yes' 'No']
+								Var_1 ['Cat_6' 'Cat_3' 'Cat_4']
+										Gender ['Male' 'Female']
+												OutCome = A
+												Family_Size [1. 2.]
+														OutCome = A
+														OutCome = B
+										OutCome = B
+										OutCome = A
+								OutCome = A
+						Var_1 ['Cat_6' 'Cat_3' 'Cat_4' 'Cat_7']
+								Work_Experience [1. 4.]
+										Family_Size [2. 3. 4.]
+												OutCome = B
+												Graduated ['No' 'Yes']
+														OutCome = B
+														OutCome = C
+												OutCome = B
+										OutCome = C
+								OutCome = C
+								OutCome = B
+								OutCome = B
+						Var_1 ['Cat_6' 'Cat_3']
+								OutCome = C
+								OutCome = B
+				Spending_Score ['Low' 'Average' 'High']
+						OutCome = B
+						Gender ['Female']
+								Gender ['Female']
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = A
+						OutCome = D
+				OutCome = A
+		Age [2 3 4 5 6 7]
+				OutCome = D
+				Graduated ['Yes' 'No']
+						Family_Size [1. 2. 3. 4. 5. 6. 7. 8. 9.]
+								Var_1 ['Cat_6' 'Cat_3']
+										OutCome = D
+										Gender ['Male' 'Female']
+												OutCome = C
+												OutCome = A
+								Work_Experience [1. 2. 3. 4. 5.]
+										Spending_Score ['Low' 'High' 'Average']
+												Var_1 ['Cat_6' 'Cat_4' 'Cat_5' 'Cat_3']
+														OutCome = D
+														OutCome = A
+														OutCome = D
+														OutCome = C
+												OutCome = D
+												OutCome = A
+										OutCome = B
+										Gender ['Male' 'Female']
+												OutCome = C
+												OutCome = D
+										OutCome = A
+										OutCome = D
+								Work_Experience [1. 2. 3. 4. 5.]
+										Gender ['Female' 'Male']
+												Var_1 ['Cat_2' 'Cat_6' 'Cat_3']
+														OutCome = D
+														OutCome = D
+														OutCome = D
+												Var_1 ['Cat_6' 'Cat_3' 'Cat_1' 'Cat_4']
+														OutCome = D
+														OutCome = D
+														OutCome = D
+														OutCome = D
+										OutCome = D
+										OutCome = A
+										OutCome = D
+										Var_1 ['Cat_6' 'Cat_3' 'Cat_2' 'Cat_4']
+												OutCome = D
+												OutCome = D
+												OutCome = D
+												OutCome = A
+								Var_1 ['Cat_6' 'Cat_2' 'Cat_7' 'Cat_5' 'Cat_1' 'Cat_4' 'Cat_3']
+										Work_Experience [1. 3. 4. 5.]
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = C
+												Gender ['Male']
+														OutCome = D
+												OutCome = D
+												OutCome = D
+										Work_Experience [1. 2. 3. 4.]
+												Gender ['Male' 'Female']
+														OutCome = D
+														OutCome = C
+												OutCome = C
+												OutCome = D
+												OutCome = C
+										OutCome = B
+										OutCome = D
+										OutCome = D
+										Ever_Married ['No' 'Yes']
+												OutCome = B
+												OutCome = A
+										OutCome = D
+								Gender ['Female' 'Male']
+										Var_1 ['Cat_2' 'Cat_6' 'Cat_4']
+												OutCome = D
+												Gender ['Female']
+														OutCome = B
+												Work_Experience [1. 2.]
+														OutCome = C
+														OutCome = D
+										OutCome = D
+								Ever_Married ['Yes' 'No']
+										OutCome = C
+										Var_1 ['Cat_6' 'Cat_4']
+												OutCome = D
+												OutCome = B
+								Gender ['Female' 'Male']
+										Ever_Married ['Yes' 'No']
+												OutCome = D
+												Var_1 ['Cat_6' 'Cat_2']
+														OutCome = D
+														OutCome = B
+										OutCome = C
+								Work_Experience [1. 2. 3.]
+										OutCome = C
+										OutCome = B
+										OutCome = C
+								OutCome = C
+						Family_Size [1. 2. 3. 4. 5. 6. 7. 8. 9.]
+								OutCome = D
+								Var_1 ['Cat_6' 'Cat_7' 'Cat_4' 'Cat_5' 'Cat_3' 'Cat_2']
+										Work_Experience [1. 2. 3. 4. 5. 7.]
+												Gender ['Male' 'Female']
+														OutCome = D
+														OutCome = D
+												OutCome = D
+												OutCome = D
+												OutCome = D
+												OutCome = D
+												OutCome = B
+										Ever_Married ['No' 'Yes']
+												OutCome = D
+												OutCome = C
+										Gender ['Female' 'Male']
+												Gender ['Female']
+														OutCome = D
+												Work_Experience [1. 2.]
+														OutCome = D
+														OutCome = D
+										OutCome = D
+										OutCome = D
+										OutCome = D
+								Var_1 ['Cat_4' 'Cat_6' 'Cat_3' 'Cat_2' 'Cat_7' 'Cat_5' 'Cat_1']
+										Gender ['Female' 'Male']
+												Work_Experience [1. 2. 3.]
+														OutCome = C
+														OutCome = D
+														OutCome = D
+												Work_Experience [1. 2. 3. 5.]
+														OutCome = D
+														OutCome = D
+														OutCome = D
+														OutCome = D
+										Gender ['Male' 'Female']
+												Work_Experience [1. 2. 4. 5.]
+														OutCome = D
+														OutCome = D
+														OutCome = D
+														OutCome = D
+												Work_Experience [1. 3. 8.]
+														OutCome = D
+														OutCome = D
+														OutCome = D
+										OutCome = D
+										OutCome = D
+										OutCome = D
+										OutCome = B
+										OutCome = D
+								Var_1 ['Cat_6' 'Cat_2' 'Cat_4' 'Cat_3' 'Cat_7' 'Cat_1']
+										Work_Experience [1. 2. 3. 4. 5. 6.]
+												Ever_Married ['No' 'Yes']
+														OutCome = D
+														OutCome = D
+												Gender ['Male']
+														OutCome = D
+												OutCome = D
+												OutCome = D
+												OutCome = D
+												OutCome = D
+										Gender ['Male' 'Female']
+												Work_Experience [1. 4.]
+														OutCome = D
+														OutCome = D
+												Ever_Married ['No' 'Yes']
+														OutCome = D
+														OutCome = D
+										Work_Experience [1. 2. 3. 5.]
+												Ever_Married ['No' 'Yes']
+														OutCome = D
+														OutCome = A
+												OutCome = D
+												Gender ['Male' 'Female']
+														OutCome = D
+														OutCome = A
+												OutCome = D
+										Gender ['Female' 'Male']
+												Gender ['Female']
+														OutCome = D
+												OutCome = D
+										OutCome = D
+										OutCome = D
+								Var_1 ['Cat_6' 'Cat_7' 'Cat_4' 'Cat_2' 'Cat_3' 'Cat_5']
+										Gender ['Female' 'Male']
+												Work_Experience [1. 2.]
+														OutCome = D
+														OutCome = D
+												Work_Experience [1. 2. 5.]
+														OutCome = D
+														OutCome = D
+														OutCome = D
+										Work_Experience [1. 5.]
+												OutCome = D
+												OutCome = A
+										Gender ['Male' 'Female']
+												Ever_Married ['No' 'Yes']
+														OutCome = D
+														OutCome = D
+												Gender ['Female']
+														OutCome = D
+										OutCome = D
+										OutCome = D
+										OutCome = D
+								Var_1 ['Cat_5' 'Cat_3' 'Cat_4' 'Cat_6' 'Cat_2' 'Cat_1']
+										Gender ['Female' 'Male']
+												OutCome = A
+												OutCome = D
+										OutCome = D
+										OutCome = D
+										Gender ['Female' 'Male']
+												OutCome = D
+												OutCome = B
+										OutCome = D
+										OutCome = D
+								Gender ['Female' 'Male']
+										OutCome = D
+										Var_1 ['Cat_6' 'Cat_3']
+												OutCome = A
+												OutCome = D
+								Var_1 ['Cat_4' 'Cat_7' 'Cat_6']
+										Gender ['Male' 'Female']
+												Gender ['Male']
+														OutCome = D
+												OutCome = C
+										OutCome = B
+										OutCome = D
+								OutCome = D
+				Family_Size [1. 2. 3. 4. 5. 6. 7. 8. 9.]
+						Var_1 ['Cat_6' 'Cat_4' 'Cat_2']
+								Work_Experience [1. 2. 3. 5.]
+										Gender ['Female' 'Male']
+												Graduated ['Yes' 'No']
+														OutCome = D
+														OutCome = D
+												OutCome = D
+										OutCome = A
+										OutCome = D
+										OutCome = D
+								Graduated ['Yes' 'No']
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = D
+										Gender ['Female' 'Male']
+												OutCome = C
+												OutCome = D
+								OutCome = C
+						Work_Experience [1. 2. 3. 4. 5. 6. 7.]
+								Var_1 ['Cat_7' 'Cat_6' 'Cat_4' 'Cat_5' 'Cat_3']
+										Gender ['Male' 'Female']
+												OutCome = A
+												OutCome = D
+										Spending_Score ['Average' 'Low']
+												OutCome = D
+												Ever_Married ['Yes' 'No']
+														OutCome = A
+														OutCome = D
+										Spending_Score ['Low' 'High' 'Average']
+												Gender ['Male' 'Female']
+														OutCome = B
+														OutCome = D
+												OutCome = B
+												OutCome = A
+										OutCome = D
+										OutCome = A
+								Gender ['Male' 'Female']
+										Graduated ['Yes' 'No']
+												OutCome = D
+												OutCome = A
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = A
+								Gender ['Female' 'Male']
+										OutCome = A
+										OutCome = D
+								Ever_Married ['No' 'Yes']
+										OutCome = D
+										OutCome = A
+								Var_1 ['Cat_6' 'Cat_4' 'Cat_3' 'Cat_2']
+										OutCome = D
+										Ever_Married ['No' 'Yes']
+												OutCome = D
+												OutCome = B
+										OutCome = D
+										OutCome = A
+								Spending_Score ['Low' 'Average' 'High']
+										OutCome = C
+										Var_1 ['Cat_2' 'Cat_6']
+												OutCome = D
+												OutCome = B
+										OutCome = D
+								OutCome = D
+						Work_Experience [1. 2. 3. 4. 5. 7.]
+								Var_1 ['Cat_6' 'Cat_2' 'Cat_4' 'Cat_3']
+										Graduated ['Yes' 'No']
+												Ever_Married ['No' 'Yes']
+														OutCome = C
+														OutCome = C
+												Ever_Married ['No' 'Yes']
+														OutCome = D
+														OutCome = C
+										Gender ['Female' 'Male']
+												OutCome = C
+												OutCome = B
+										Gender ['Male' 'Female']
+												OutCome = A
+												Gender ['Female']
+														OutCome = B
+										OutCome = C
+								Gender ['Female' 'Male']
+										Ever_Married ['No' 'Yes']
+												OutCome = B
+												OutCome = C
+										Ever_Married ['No' 'Yes']
+												OutCome = C
+												OutCome = D
+								Graduated ['No' 'Yes']
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = A
+										OutCome = B
+								Graduated ['Yes' 'No']
+										OutCome = D
+										OutCome = C
+								Spending_Score ['Low' 'Average' 'High']
+										Var_1 ['Cat_6' 'Cat_4' 'Cat_7']
+												Graduated ['Yes' 'No']
+														OutCome = D
+														OutCome = A
+												OutCome = D
+												Graduated ['Yes' 'No']
+														OutCome = D
+														OutCome = C
+										OutCome = C
+										OutCome = A
+								OutCome = A
+						Work_Experience [1. 2. 3. 4. 5. 8.]
+								Var_1 ['Cat_6' 'Cat_2' 'Cat_4' 'Cat_3']
+										Spending_Score ['Low' 'Average' 'High']
+												Graduated ['No' 'Yes']
+														OutCome = C
+														OutCome = D
+												OutCome = D
+												OutCome = B
+										Ever_Married ['No' 'Yes']
+												OutCome = B
+												OutCome = C
+										Gender ['Male' 'Female']
+												Ever_Married ['No' 'Yes']
+														OutCome = B
+														OutCome = D
+												OutCome = C
+										OutCome = C
+								OutCome = D
+								Ever_Married ['Yes' 'No']
+										OutCome = C
+										OutCome = D
+								Var_1 ['Cat_5' 'Cat_6' 'Cat_3']
+										OutCome = D
+										OutCome = D
+										OutCome = A
+								Var_1 ['Cat_6' 'Cat_7' 'Cat_2']
+										Graduated ['No' 'Yes']
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = D
+												OutCome = C
+										OutCome = D
+										OutCome = A
+								OutCome = B
+						Var_1 ['Cat_7' 'Cat_1' 'Cat_4' 'Cat_6' 'Cat_2' 'Cat_5' 'Cat_3']
+								Gender ['Male' 'Female']
+										OutCome = D
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = B
+								Work_Experience [1. 2.]
+										OutCome = D
+										OutCome = C
+								Gender ['Male' 'Female']
+										Ever_Married ['No' 'Yes']
+												Gender ['Male']
+														OutCome = D
+												OutCome = D
+										Graduated ['Yes' 'No']
+												OutCome = D
+												OutCome = B
+								Work_Experience [1. 2. 4. 5.]
+										Gender ['Male' 'Female']
+												Ever_Married ['No' 'Yes']
+														OutCome = D
+														OutCome = D
+												Graduated ['No' 'Yes']
+														OutCome = C
+														OutCome = D
+										OutCome = B
+										OutCome = D
+										Gender ['Female' 'Male']
+												OutCome = C
+												OutCome = D
+								Gender ['Female' 'Male']
+										Graduated ['Yes' 'No']
+												Gender ['Female']
+														OutCome = B
+												OutCome = D
+										Work_Experience [1. 2.]
+												OutCome = B
+												Gender ['Male']
+														OutCome = A
+								Gender ['Male' 'Female']
+										OutCome = C
+										OutCome = D
+								OutCome = A
+						Work_Experience [1. 2. 4. 7.]
+								Var_1 ['Cat_6' 'Cat_3']
+										Gender ['Male' 'Female']
+												Ever_Married ['No' 'Yes']
+														OutCome = D
+														OutCome = A
+												OutCome = A
+										Graduated ['Yes' 'No']
+												OutCome = D
+												OutCome = C
+								OutCome = D
+								OutCome = C
+								OutCome = D
+						Graduated ['Yes' 'No']
+								Var_1 ['Cat_6' 'Cat_5' 'Cat_4']
+										OutCome = A
+										OutCome = D
+										OutCome = A
+								Gender ['Male' 'Female']
+										OutCome = D
+										OutCome = B
+						OutCome = A
+						OutCome = C
+				Family_Size [1. 2. 3. 4. 6. 7.]
+						Work_Experience [1. 3. 5. 7.]
+								Var_1 ['Cat_6' 'Cat_4']
+										OutCome = D
+										OutCome = A
+								OutCome = A
+								OutCome = D
+								OutCome = A
+						Work_Experience [1. 2. 3. 4. 5.]
+								Var_1 ['Cat_4' 'Cat_6' 'Cat_3']
+										OutCome = D
+										OutCome = D
+										OutCome = A
+								OutCome = D
+								OutCome = D
+								OutCome = A
+								OutCome = D
+						Work_Experience [1. 2. 5.]
+								OutCome = C
+								OutCome = D
+								Ever_Married ['No' 'Yes']
+										OutCome = D
+										OutCome = C
+						Var_1 ['Cat_4' 'Cat_2' 'Cat_6']
+								OutCome = B
+								OutCome = D
+								OutCome = D
+						Ever_Married ['No' 'Yes']
+								OutCome = A
+								OutCome = C
+						OutCome = D
+				Family_Size [1. 2. 3. 4. 6.]
+						OutCome = D
+						Spending_Score ['Low' 'High']
+								Gender ['Male']
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = D
+								OutCome = D
+						Var_1 ['Cat_4' 'Cat_6']
+								OutCome = D
+								OutCome = B
+						OutCome = B
+						OutCome = C
+				Family_Size [1. 2. 3. 4. 7.]
+						Gender ['Male' 'Female']
+								OutCome = C
+								OutCome = B
+						OutCome = A
+						OutCome = A
+						Graduated ['No' 'Yes']
+								OutCome = B
+								OutCome = D
+						OutCome = B
+		Family_Size [1. 2. 3. 4. 5. 6. 7. 8. 9.]
+				Work_Experience [1. 2. 3. 4. 5. 6. 7.]
+						Age [3 4 5 6 7 8]
+								Var_1 ['Cat_4' 'Cat_6' 'Cat_2']
+										OutCome = A
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = B
+										OutCome = A
+								Var_1 ['Cat_6' 'Cat_3' 'Cat_4' 'Cat_5']
+										Gender ['Female' 'Male']
+												Graduated ['Yes' 'No']
+														OutCome = A
+														OutCome = A
+												OutCome = D
+										Ever_Married ['Yes' 'No']
+												Gender ['Female']
+														OutCome = A
+												OutCome = D
+										Graduated ['Yes' 'No']
+												Gender ['Female']
+														OutCome = A
+												OutCome = A
+										OutCome = D
+								Var_1 ['Cat_2' 'Cat_3' 'Cat_6' 'Cat_7' 'Cat_4']
+										Gender ['Male' 'Female']
+												OutCome = A
+												OutCome = B
+										OutCome = B
+										Ever_Married ['Yes' 'No']
+												Gender ['Male' 'Female']
+														OutCome = D
+														OutCome = A
+												Gender ['Female' 'Male']
+														OutCome = A
+														OutCome = A
+										OutCome = A
+										OutCome = B
+								Gender ['Male' 'Female']
+										Var_1 ['Cat_6' 'Cat_2' 'Cat_3']
+												Graduated ['Yes' 'No']
+														OutCome = D
+														OutCome = A
+												OutCome = D
+												OutCome = C
+										Graduated ['Yes' 'No']
+												Ever_Married ['No' 'Yes']
+														OutCome = B
+														OutCome = A
+												Ever_Married ['Yes' 'No']
+														OutCome = B
+														OutCome = A
+								Var_1 ['Cat_6' 'Cat_4' 'Cat_3']
+										Graduated ['Yes' 'No']
+												Gender ['Female']
+														OutCome = B
+												OutCome = B
+										OutCome = A
+										OutCome = B
+								OutCome = A
+						Var_1 ['Cat_6' 'Cat_4' 'Cat_7' 'Cat_3' 'Cat_2']
+								Age [4 5 6 8]
+										OutCome = A
+										OutCome = B
+										OutCome = A
+										OutCome = B
+								OutCome = A
+								OutCome = B
+								OutCome = A
+								OutCome = B
+						Age [4 5 6]
+								OutCome = A
+								OutCome = B
+								OutCome = B
+						OutCome = D
+						Age [4 5 6]
+								OutCome = A
+								OutCome = A
+								OutCome = B
+						Age [3 4 5]
+								Gender ['Female']
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = B
+								OutCome = A
+								OutCome = D
+						OutCome = D
+				Spending_Score ['Low' 'High' 'Average']
+						Var_1 ['Cat_6' 'Cat_7' 'Cat_3' 'Cat_4' 'Cat_2' 'Cat_1']
+								Graduated ['No' 'Yes']
+										Work_Experience [1. 3. 4. 5.]
+												Age [3 4 5 6]
+														OutCome = D
+														OutCome = A
+														OutCome = A
+														OutCome = D
+												OutCome = A
+												OutCome = A
+												OutCome = A
+										Age [3 4 5 6]
+												Work_Experience [1. 3. 5.]
+														OutCome = A
+														OutCome = D
+														OutCome = A
+												Gender ['Female' 'Male']
+														OutCome = A
+														OutCome = D
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = D
+												Gender ['Male' 'Female']
+														OutCome = D
+														OutCome = A
+								Age [3 5]
+										OutCome = D
+										OutCome = A
+								Work_Experience [1. 3. 4. 5.]
+										Age [3 4 6 7]
+												OutCome = A
+												OutCome = D
+												OutCome = A
+												OutCome = B
+										OutCome = B
+										Gender ['Female' 'Male']
+												OutCome = D
+												OutCome = B
+										OutCome = D
+								Age [3 4 5 6 7]
+										Gender ['Male' 'Female']
+												OutCome = B
+												OutCome = A
+										Work_Experience [1. 3. 5.]
+												OutCome = A
+												OutCome = A
+												OutCome = C
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = B
+										Work_Experience [1. 3.]
+												OutCome = A
+												OutCome = D
+										Gender ['Female' 'Male']
+												OutCome = B
+												OutCome = A
+								OutCome = B
+								OutCome = B
+						Age [3 5 6 7 8 9]
+								OutCome = D
+								Var_1 ['Cat_4' 'Cat_6']
+										OutCome = A
+										OutCome = B
+								OutCome = B
+								OutCome = B
+								Gender ['Female' 'Male']
+										Graduated ['No' 'Yes']
+												OutCome = A
+												OutCome = B
+										OutCome = D
+								OutCome = B
+						Var_1 ['Cat_6' 'Cat_4' 'Cat_7' 'Cat_3' 'Cat_1' 'Cat_5']
+								Work_Experience [1. 2. 3. 5.]
+										Age [4 5 6 7]
+												Graduated ['Yes' 'No']
+														OutCome = B
+														OutCome = B
+												Graduated ['Yes' 'No']
+														OutCome = B
+														OutCome = A
+												Gender ['Female']
+														OutCome = C
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = B
+										Age [4 5 6]
+												OutCome = D
+												OutCome = C
+												OutCome = B
+										OutCome = D
+										OutCome = C
+								Graduated ['No' 'Yes']
+										Work_Experience [1. 4. 5.]
+												Age [3 4 5 7]
+														OutCome = A
+														OutCome = A
+														OutCome = B
+														OutCome = A
+												OutCome = D
+												OutCome = A
+										OutCome = C
+								OutCome = C
+								Work_Experience [1. 2. 5.]
+										OutCome = C
+										OutCome = B
+										OutCome = B
+								OutCome = C
+								OutCome = C
+				Work_Experience [1. 2. 3. 4. 5. 7.]
+						Var_1 ['Cat_4' 'Cat_6' 'Cat_7' 'Cat_2' 'Cat_5' 'Cat_3']
+								Age [3 4 5 6 7]
+										Ever_Married ['No' 'Yes']
+												OutCome = C
+												OutCome = D
+										Ever_Married ['Yes' 'No']
+												Gender ['Male' 'Female']
+														OutCome = B
+														OutCome = A
+												OutCome = C
+										Graduated ['Yes' 'No']
+												OutCome = B
+												OutCome = A
+										OutCome = C
+										Spending_Score ['High' 'Average' 'Low']
+												OutCome = B
+												OutCome = A
+												OutCome = A
+								Age [3 4 5 6 7]
+										Graduated ['No' 'Yes']
+												Gender ['Female' 'Male']
+														OutCome = D
+														OutCome = A
+												Gender ['Female']
+														OutCome = C
+										Graduated ['No' 'Yes']
+												Gender ['Female']
+														OutCome = C
+												Gender ['Male' 'Female']
+														OutCome = D
+														OutCome = D
+										Spending_Score ['Average' 'Low' 'High']
+												OutCome = C
+												OutCome = A
+												OutCome = A
+										Gender ['Male' 'Female']
+												Graduated ['Yes' 'No']
+														OutCome = A
+														OutCome = D
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = A
+										Gender ['Male' 'Female']
+												OutCome = C
+												OutCome = A
+								Spending_Score ['Average' 'High' 'Low']
+										OutCome = C
+										OutCome = B
+										OutCome = A
+								OutCome = B
+								OutCome = A
+								Age [4 5 6]
+										Gender ['Male' 'Female']
+												OutCome = A
+												Ever_Married ['No' 'Yes']
+														OutCome = A
+														OutCome = B
+										Ever_Married ['No' 'Yes']
+												Graduated ['No' 'Yes']
+														OutCome = A
+														OutCome = B
+												Spending_Score ['High' 'Low']
+														OutCome = A
+														OutCome = D
+										OutCome = B
+						Age [4 6]
+								OutCome = D
+								OutCome = C
+						Age [3 4 6]
+								OutCome = B
+								Ever_Married ['Yes' 'No']
+										OutCome = A
+										OutCome = D
+								OutCome = B
+						Ever_Married ['No' 'Yes']
+								OutCome = D
+								Gender ['Female' 'Male']
+										OutCome = A
+										OutCome = D
+						Age [3 4 5 7]
+								OutCome = D
+								Var_1 ['Cat_6' 'Cat_4' 'Cat_3']
+										OutCome = D
+										OutCome = D
+										OutCome = C
+								OutCome = D
+								Graduated ['No' 'Yes']
+										OutCome = A
+										OutCome = B
+						OutCome = B
+				Spending_Score ['Low' 'Average' 'High']
+						Var_1 ['Cat_4' 'Cat_6' 'Cat_5' 'Cat_1' 'Cat_2' 'Cat_3']
+								Age [3 4 5]
+										Gender ['Female' 'Male']
+												OutCome = A
+												OutCome = D
+										OutCome = A
+										OutCome = D
+								Age [2 3 4 5 6 7]
+										OutCome = D
+										Ever_Married ['No' 'Yes']
+												Gender ['Female' 'Male']
+														OutCome = D
+														OutCome = D
+												OutCome = A
+										Gender ['Female' 'Male']
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = C
+												OutCome = D
+										Ever_Married ['Yes' 'No']
+												OutCome = B
+												OutCome = D
+										OutCome = A
+										OutCome = D
+								OutCome = A
+								Gender ['Female' 'Male']
+										OutCome = B
+										OutCome = D
+								Gender ['Male' 'Female']
+										OutCome = A
+										OutCome = C
+								Gender ['Male' 'Female']
+										OutCome = D
+										Ever_Married ['No' 'Yes']
+												OutCome = B
+												OutCome = C
+						Var_1 ['Cat_6' 'Cat_2' 'Cat_4' 'Cat_5' 'Cat_3' 'Cat_7']
+								Age [4 5 6]
+										OutCome = B
+										Graduated ['Yes' 'No']
+												Gender ['Female']
+														OutCome = B
+												OutCome = A
+										Graduated ['No' 'Yes']
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = B
+												OutCome = B
+								Graduated ['No' 'Yes']
+										OutCome = B
+										Age [5 6 7]
+												OutCome = C
+												OutCome = C
+												OutCome = B
+								Age [4 5 6 7]
+										Gender ['Male' 'Female']
+												OutCome = B
+												OutCome = A
+										OutCome = A
+										OutCome = B
+										OutCome = A
+								OutCome = B
+								Gender ['Male' 'Female']
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = A
+										OutCome = A
+								OutCome = A
+						Age [3 4 5 6 8]
+								OutCome = A
+								OutCome = D
+								OutCome = B
+								OutCome = A
+								Gender ['Male' 'Female']
+										OutCome = B
+										OutCome = A
+				Age [2 3 4 5 6 7]
+						OutCome = D
+						Var_1 ['Cat_2' 'Cat_3' 'Cat_4']
+								Gender ['Female']
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = B
+								OutCome = A
+								OutCome = D
+						Var_1 ['Cat_4' 'Cat_6' 'Cat_1' 'Cat_3']
+								Work_Experience [1. 2. 4. 7.]
+										Spending_Score ['Average' 'Low']
+												OutCome = D
+												OutCome = A
+										OutCome = D
+										Spending_Score ['Average' 'High']
+												OutCome = B
+												OutCome = D
+										OutCome = B
+								OutCome = D
+								OutCome = B
+								Ever_Married ['No' 'Yes']
+										OutCome = D
+										OutCome = A
+						Work_Experience [1. 3. 4. 5.]
+								Var_1 ['Cat_3' 'Cat_4' 'Cat_6' 'Cat_2']
+										OutCome = B
+										Graduated ['Yes' 'No']
+												OutCome = A
+												OutCome = B
+										Spending_Score ['Average' 'High' 'Low']
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = B
+												OutCome = C
+												OutCome = C
+										OutCome = B
+								OutCome = D
+								OutCome = D
+								Ever_Married ['No' 'Yes']
+										OutCome = A
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = A
+						Gender ['Male' 'Female']
+								OutCome = C
+								Ever_Married ['Yes' 'No']
+										OutCome = B
+										OutCome = A
+						Gender ['Male' 'Female']
+								OutCome = D
+								OutCome = B
+				Age [3 4 5 6]
+						Graduated ['Yes' 'No']
+								OutCome = B
+								Var_1 ['Cat_6' 'Cat_4']
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = A
+										OutCome = C
+						Gender ['Female' 'Male']
+								Work_Experience [1. 2. 5.]
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = B
+										OutCome = B
+										OutCome = D
+								OutCome = A
+						OutCome = B
+						Gender ['Female' 'Male']
+								Ever_Married ['No' 'Yes']
+										OutCome = D
+										OutCome = A
+								OutCome = B
+				Work_Experience [1. 2. 3. 4. 5.]
+						Gender ['Female' 'Male']
+								OutCome = A
+								Age [4 6]
+										OutCome = A
+										OutCome = B
+						OutCome = D
+						OutCome = A
+						OutCome = D
+						OutCome = C
+				OutCome = D
+				Age [3 4 7]
+						OutCome = D
+						Ever_Married ['Yes' 'No']
+								OutCome = A
+								OutCome = D
+						OutCome = A
+		Family_Size [1. 2. 3. 4. 5. 6. 9.]
+				Work_Experience [1. 2. 3. 4. 5. 7.]
+						Var_1 ['Cat_6' 'Cat_3' 'Cat_4' 'Cat_2']
+								Graduated ['Yes' 'No']
+										Gender ['Male' 'Female']
+												Age [7 8 9]
+														OutCome = C
+														OutCome = A
+														OutCome = A
+												Age [7 8 9]
+														OutCome = A
+														OutCome = B
+														OutCome = C
+										Age [6 7 8 9]
+												OutCome = D
+												Gender ['Male' 'Female']
+														OutCome = B
+														OutCome = A
+												Gender ['Male' 'Female']
+														OutCome = D
+														OutCome = A
+												Gender ['Female' 'Male']
+														OutCome = A
+														OutCome = A
+								Ever_Married ['Yes' 'No']
+										Age [7 8 9]
+												OutCome = A
+												Graduated ['Yes' 'No']
+														OutCome = A
+														OutCome = A
+												Graduated ['No' 'Yes']
+														OutCome = C
+														OutCome = D
+										Gender ['Male' 'Female']
+												OutCome = C
+												OutCome = B
+								Age [7 8 9]
+										Gender ['Male' 'Female']
+												OutCome = D
+												OutCome = A
+										OutCome = D
+										Gender ['Male' 'Female']
+												OutCome = B
+												OutCome = A
+								OutCome = C
+						Age [8 9]
+								OutCome = D
+								Gender ['Male']
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = A
+						Age [5 6 7]
+								OutCome = B
+								OutCome = A
+								OutCome = B
+						OutCome = B
+						Age [3 7 9]
+								OutCome = D
+								OutCome = A
+								OutCome = D
+						OutCome = A
+				Graduated ['Yes' 'No']
+						Spending_Score ['High' 'Low' 'Average']
+								Work_Experience [1. 2. 3. 4. 5. 6. 7.]
+										Age [4 6 7 8 9]
+												OutCome = C
+												OutCome = B
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = B
+												Var_1 ['Cat_6' 'Cat_2']
+														OutCome = C
+														OutCome = B
+												Var_1 ['Cat_6' 'Cat_2' 'Cat_4']
+														OutCome = C
+														OutCome = C
+														OutCome = A
+										Gender ['Female' 'Male']
+												Age [8 9]
+														OutCome = A
+														OutCome = A
+												Gender ['Male']
+														OutCome = B
+										Gender ['Female' 'Male']
+												OutCome = D
+												OutCome = A
+										Gender ['Female' 'Male']
+												OutCome = B
+												OutCome = A
+										Gender ['Female' 'Male']
+												OutCome = C
+												OutCome = A
+										OutCome = C
+										OutCome = C
+								Age [6 7 8 9]
+										OutCome = D
+										Var_1 ['Cat_6' 'Cat_1']
+												Gender ['Female' 'Male']
+														OutCome = C
+														OutCome = C
+												OutCome = A
+										Var_1 ['Cat_6' 'Cat_4' 'Cat_3']
+												Gender ['Female' 'Male']
+														OutCome = D
+														OutCome = A
+												Gender ['Male']
+														OutCome = B
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = D
+										Var_1 ['Cat_6' 'Cat_4']
+												Gender ['Male' 'Female']
+														OutCome = A
+														OutCome = D
+												Ever_Married ['Yes' 'No']
+														OutCome = D
+														OutCome = A
+								Age [7 8 9]
+										OutCome = B
+										OutCome = C
+										OutCome = A
+						Age [5 6 7 8 9]
+								OutCome = D
+								Spending_Score ['Low' 'High']
+										OutCome = D
+										OutCome = C
+								Var_1 ['Cat_6' 'Cat_3' 'Cat_4' 'Cat_1']
+										Spending_Score ['Low' 'High' 'Average']
+												OutCome = D
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = A
+												Gender ['Female' 'Male']
+														OutCome = D
+														OutCome = A
+										OutCome = B
+										Gender ['Male' 'Female']
+												OutCome = D
+												Spending_Score ['Low' 'High']
+														OutCome = B
+														OutCome = D
+										Spending_Score ['High' 'Low']
+												OutCome = D
+												OutCome = B
+								Spending_Score ['High' 'Low' 'Average']
+										Var_1 ['Cat_6' 'Cat_2' 'Cat_4']
+												Gender ['Male' 'Female']
+														OutCome = A
+														OutCome = B
+												OutCome = A
+												OutCome = B
+										Ever_Married ['No' 'Yes']
+												OutCome = A
+												OutCome = D
+										OutCome = D
+								Work_Experience [1. 2. 4. 5.]
+										Spending_Score ['High' 'Average' 'Low']
+												Var_1 ['Cat_6' 'Cat_3']
+														OutCome = A
+														OutCome = D
+												OutCome = A
+												Var_1 ['Cat_6' 'Cat_3']
+														OutCome = A
+														OutCome = B
+										OutCome = A
+										OutCome = C
+										OutCome = B
+				Age [3 6 7 8 9]
+						OutCome = A
+						Var_1 ['Cat_6' 'Cat_3' 'Cat_1']
+								OutCome = C
+								OutCome = A
+								OutCome = D
+						Spending_Score ['High' 'Low' 'Average']
+								Gender ['Female' 'Male']
+										Graduated ['Yes' 'No']
+												OutCome = C
+												OutCome = D
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = A
+								Gender ['Male' 'Female']
+										Work_Experience [1. 2.]
+												OutCome = C
+												OutCome = A
+										OutCome = A
+								Graduated ['No' 'Yes']
+										OutCome = B
+										OutCome = C
+						Graduated ['Yes' 'No']
+								Work_Experience [1. 3. 8.]
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = C
+										OutCome = A
+										OutCome = C
+								Work_Experience [1. 5.]
+										Gender ['Female' 'Male']
+												Gender ['Female']
+														OutCome = B
+												OutCome = B
+										OutCome = D
+						Graduated ['No' 'Yes']
+								Gender ['Female' 'Male']
+										Ever_Married ['No' 'Yes']
+												OutCome = D
+												OutCome = B
+										OutCome = D
+								Work_Experience [1. 4.]
+										Spending_Score ['High' 'Low']
+												Gender ['Male' 'Female']
+														OutCome = B
+														OutCome = B
+												OutCome = A
+										OutCome = D
+				Var_1 ['Cat_6' 'Cat_2']
+						OutCome = C
+						OutCome = B
+				Var_1 ['Cat_6' 'Cat_1' 'Cat_3']
+						Spending_Score ['Low' 'High']
+								OutCome = A
+								OutCome = B
+						OutCome = D
+						OutCome = D
+				OutCome = B
+				Age [3 7]
+						OutCome = C
+						OutCome = A
+		Age [3 4 5 6 7 8 9]
+				Family_Size [1. 2. 3. 4. 5. 6. 7.]
+						Work_Experience [1. 3. 5. 6. 7. 8.]
+								Graduated ['Yes' 'No']
+										Var_1 ['Cat_1' 'Cat_6']
+												OutCome = D
+												OutCome = C
+										OutCome = D
+								OutCome = D
+								Var_1 ['Cat_6' 'Cat_3' 'Cat_4' 'Cat_5']
+										OutCome = D
+										OutCome = D
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = D
+										OutCome = D
+								OutCome = D
+								Graduated ['No' 'Yes']
+										OutCome = D
+										OutCome = A
+								OutCome = D
+						Work_Experience [1. 5. 7.]
+								Spending_Score ['High' 'Low' 'Average']
+										OutCome = A
+										OutCome = B
+										Graduated ['Yes' 'No']
+												OutCome = A
+												OutCome = C
+								Spending_Score ['Average' 'Low']
+										Gender ['Male' 'Female']
+												OutCome = A
+												Graduated ['Yes' 'No']
+														OutCome = A
+														OutCome = D
+										Gender ['Female' 'Male']
+												Var_1 ['Cat_6' 'Cat_4']
+														OutCome = A
+														OutCome = D
+												OutCome = D
+								OutCome = B
+						Work_Experience [1. 5. 6.]
+								OutCome = C
+								OutCome = A
+								OutCome = D
+						Var_1 ['Cat_2' 'Cat_6' 'Cat_3' 'Cat_4']
+								OutCome = B
+								Gender ['Female']
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = D
+								Gender ['Female' 'Male']
+										OutCome = D
+										OutCome = A
+								OutCome = A
+						OutCome = B
+						Var_1 ['Cat_6' 'Cat_3']
+								OutCome = D
+								OutCome = A
+						OutCome = B
+				Family_Size [1. 2. 3. 4. 5. 6. 7. 9.]
+						Var_1 ['Cat_6' 'Cat_1' 'Cat_3' 'Cat_2']
+								Work_Experience [1. 3. 5. 6.]
+										Gender ['Female' 'Male']
+												OutCome = A
+												OutCome = D
+										OutCome = D
+										Graduated ['No' 'Yes']
+												Gender ['Female']
+														OutCome = D
+												Gender ['Female']
+														OutCome = D
+										OutCome = D
+								OutCome = D
+								OutCome = A
+								OutCome = D
+						Work_Experience [1. 2. 3. 4. 5. 7.]
+								Spending_Score ['Average' 'High' 'Low']
+										Gender ['Male' 'Female']
+												OutCome = C
+												OutCome = A
+										OutCome = A
+										Ever_Married ['No' 'Yes']
+												OutCome = B
+												OutCome = D
+								Spending_Score ['Average' 'Low']
+										OutCome = C
+										OutCome = D
+								OutCome = B
+								OutCome = D
+								Spending_Score ['Average' 'High' 'Low']
+										Var_1 ['Cat_6' 'Cat_7']
+												Gender ['Female' 'Male']
+														OutCome = A
+														OutCome = A
+												OutCome = B
+										OutCome = D
+										Ever_Married ['No' 'Yes']
+												OutCome = A
+												Var_1 ['Cat_6' 'Cat_4']
+														OutCome = B
+														OutCome = A
+								OutCome = D
+						Var_1 ['Cat_6' 'Cat_2' 'Cat_3' 'Cat_5']
+								Work_Experience [1. 2. 7.]
+										OutCome = B
+										OutCome = A
+										OutCome = A
+								OutCome = C
+								Gender ['Female']
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = A
+								OutCome = B
+						Graduated ['No' 'Yes']
+								OutCome = D
+								Work_Experience [1. 4. 5.]
+										OutCome = B
+										OutCome = B
+										OutCome = A
+						Ever_Married ['No' 'Yes']
+								OutCome = D
+								OutCome = B
+						OutCome = A
+						OutCome = C
+						OutCome = A
+				Work_Experience [1. 2. 3. 4. 5. 6. 7. 8.]
+						Var_1 ['Cat_2' 'Cat_6' 'Cat_4' 'Cat_3']
+								OutCome = C
+								Family_Size [1. 2. 4. 5.]
+										OutCome = B
+										OutCome = C
+										OutCome = B
+										OutCome = A
+								OutCome = A
+								OutCome = B
+						Graduated ['No' 'Yes']
+								Family_Size [2. 4.]
+										OutCome = A
+										OutCome = D
+								OutCome = B
+						OutCome = A
+						Ever_Married ['Yes' 'No']
+								OutCome = B
+								OutCome = A
+						Ever_Married ['Yes' 'No']
+								Family_Size [1. 2. 3. 4. 5.]
+										Graduated ['No' 'Yes']
+												OutCome = A
+												OutCome = C
+										Var_1 ['Cat_6' 'Cat_3' 'Cat_4']
+												OutCome = C
+												OutCome = A
+												OutCome = C
+										OutCome = C
+										OutCome = C
+										OutCome = A
+								Graduated ['No' 'Yes']
+										OutCome = D
+										Family_Size [1. 2. 3.]
+												OutCome = A
+												OutCome = D
+												OutCome = A
+						Gender ['Female' 'Male']
+								Ever_Married ['No' 'Yes']
+										Graduated ['No' 'Yes']
+												OutCome = A
+												Gender ['Female']
+														OutCome = A
+										OutCome = B
+								OutCome = C
+						OutCome = A
+						OutCome = A
+				Family_Size [1. 2. 3. 4.]
+						Graduated ['No' 'Yes']
+								OutCome = A
+								OutCome = C
+						Var_1 ['Cat_5' 'Cat_4' 'Cat_3' 'Cat_6']
+								OutCome = B
+								OutCome = A
+								OutCome = C
+								Gender ['Male' 'Female']
+										OutCome = A
+										OutCome = B
+						OutCome = B
+						Graduated ['No' 'Yes']
+								OutCome = A
+								Gender ['Male' 'Female']
+										Spending_Score ['Low' 'Average']
+												OutCome = B
+												OutCome = C
+										OutCome = B
+				Spending_Score ['High' 'Low' 'Average']
+						OutCome = A
+						OutCome = B
+						OutCome = B
+				OutCome = A
+				Ever_Married ['No' 'Yes']
+						OutCome = D
+						OutCome = B
+		Spending_Score ['Average' 'Low' 'High']
+				Var_1 ['Cat_6' 'Cat_4' 'Cat_7' 'Cat_3' 'Cat_5' 'Cat_2' 'Cat_1']
+						Age [3 4 5 6 7 8]
+								Work_Experience [1. 2.]
+										Graduated ['No' 'Yes']
+												OutCome = A
+												Gender ['Male']
+														OutCome = A
+										OutCome = B
+								Work_Experience [1. 2. 3. 4. 5. 6.]
+										Gender ['Male' 'Female']
+												Family_Size [2. 3. 4.]
+														OutCome = B
+														OutCome = C
+														OutCome = B
+												Family_Size [2. 3.]
+														OutCome = A
+														OutCome = B
+										OutCome = B
+										Family_Size [2. 4.]
+												Gender ['Male']
+														OutCome = B
+												OutCome = A
+										OutCome = B
+										Family_Size [2. 3. 4.]
+												Graduated ['No' 'Yes']
+														OutCome = B
+														OutCome = A
+												OutCome = B
+												OutCome = A
+										OutCome = B
+								Work_Experience [1. 2. 3. 4. 5. 6.]
+										Family_Size [2. 3. 4. 5. 6.]
+												Gender ['Male']
+														OutCome = A
+												Gender ['Male']
+														OutCome = B
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = C
+												OutCome = C
+												OutCome = C
+										Gender ['Female' 'Male']
+												Family_Size [2. 3.]
+														OutCome = B
+														OutCome = A
+												Gender ['Male']
+														OutCome = A
+										OutCome = B
+										Gender ['Male' 'Female']
+												OutCome = C
+												OutCome = A
+										OutCome = B
+										OutCome = B
+								Work_Experience [1. 2. 3. 4. 5. 6.]
+										Family_Size [2. 3. 4. 5.]
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = B
+												Graduated ['Yes' 'No']
+														OutCome = B
+														OutCome = C
+												Graduated ['Yes' 'No']
+														OutCome = B
+														OutCome = B
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = B
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = C
+										OutCome = C
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = A
+										OutCome = C
+										OutCome = A
+								Work_Experience [1. 2. 3. 4. 5.]
+										Graduated ['Yes' 'No']
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = B
+												Family_Size [2. 3. 6.]
+														OutCome = B
+														OutCome = B
+														OutCome = B
+										OutCome = C
+										OutCome = A
+										OutCome = A
+										OutCome = C
+								Gender ['Male' 'Female']
+										Graduated ['No' 'Yes']
+												OutCome = C
+												Family_Size [2. 3.]
+														OutCome = A
+														OutCome = C
+										Work_Experience [1. 2. 4.]
+												OutCome = B
+												OutCome = A
+												OutCome = B
+						Family_Size [2. 3. 4. 5. 6.]
+								Age [3 4 5 6]
+										OutCome = A
+										Gender ['Female']
+												Gender ['Female']
+														OutCome = D
+										Gender ['Male' 'Female']
+												Gender ['Male']
+														OutCome = B
+												OutCome = A
+										OutCome = B
+								Age [3 4 5 6]
+										OutCome = D
+										Graduated ['Yes' 'No']
+												Gender ['Male']
+														OutCome = D
+												OutCome = A
+										Work_Experience [1. 2. 7.]
+												Graduated ['No' 'Yes']
+														OutCome = D
+														OutCome = C
+												OutCome = D
+												OutCome = A
+										OutCome = B
+								Age [4 5 6 7]
+										Gender ['Male' 'Female']
+												Gender ['Male']
+														OutCome = A
+												OutCome = A
+										Graduated ['No' 'Yes']
+												Gender ['Male']
+														OutCome = A
+												OutCome = B
+										OutCome = A
+										OutCome = D
+								Work_Experience [1. 4. 5.]
+										Age [4 5 6]
+												OutCome = B
+												OutCome = B
+												Graduated ['Yes' 'No']
+														OutCome = B
+														OutCome = D
+										OutCome = B
+										OutCome = D
+								OutCome = C
+						Graduated ['Yes' 'No']
+								Family_Size [3. 4.]
+										OutCome = B
+										OutCome = C
+								OutCome = B
+						Age [3 4 5 6]
+								OutCome = D
+								Work_Experience [1. 2. 3. 5.]
+										Family_Size [2. 3. 4.]
+												Gender ['Male']
+														OutCome = A
+												OutCome = B
+												Graduated ['Yes' 'No']
+														OutCome = A
+														OutCome = D
+										OutCome = B
+										OutCome = A
+										OutCome = B
+								Work_Experience [1. 2. 4.]
+										Gender ['Male' 'Female']
+												Family_Size [2. 3. 4.]
+														OutCome = C
+														OutCome = C
+														OutCome = C
+												OutCome = A
+										OutCome = B
+										OutCome = B
+								Family_Size [2. 4. 5.]
+										OutCome = C
+										Graduated ['Yes' 'No']
+												Work_Experience [1. 3.]
+														OutCome = B
+														OutCome = C
+												OutCome = B
+										OutCome = B
+						Family_Size [2. 4. 5. 7.]
+								OutCome = A
+								OutCome = B
+								OutCome = C
+								OutCome = C
+						Work_Experience [1. 2. 3. 4. 5.]
+								Age [4 5 6]
+										OutCome = A
+										OutCome = C
+										OutCome = B
+								OutCome = B
+								Age [4 5 6]
+										OutCome = B
+										OutCome = B
+										OutCome = C
+								OutCome = A
+								Family_Size [2. 4. 5.]
+										Gender ['Male' 'Female']
+												OutCome = D
+												OutCome = A
+										OutCome = B
+										OutCome = A
+						Age [3 4 5]
+								OutCome = A
+								OutCome = B
+								OutCome = A
+				Family_Size [1. 2. 3. 4. 5. 6. 7. 8. 9.]
+						Age [3 4 5 6 7 8 9]
+								OutCome = D
+								Work_Experience [1. 2. 3. 4. 5. 6. 7. 8.]
+										Var_1 ['Cat_3' 'Cat_6' 'Cat_7' 'Cat_4']
+												OutCome = A
+												Ever_Married ['No' 'Yes']
+														OutCome = A
+														OutCome = D
+												OutCome = B
+												Graduated ['No' 'Yes']
+														OutCome = A
+														OutCome = B
+										OutCome = A
+										Gender ['Female' 'Male']
+												OutCome = B
+												OutCome = A
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = A
+										Ever_Married ['Yes' 'No']
+												OutCome = A
+												OutCome = D
+										OutCome = A
+										OutCome = D
+										OutCome = D
+								Work_Experience [1. 2. 3. 5. 8.]
+										Var_1 ['Cat_6' 'Cat_3' 'Cat_4' 'Cat_7' 'Cat_2']
+												Gender ['Male' 'Female']
+														OutCome = A
+														OutCome = B
+												Ever_Married ['Yes' 'No']
+														OutCome = A
+														OutCome = A
+												Gender ['Male']
+														OutCome = A
+												OutCome = A
+												OutCome = B
+										OutCome = B
+										Gender ['Male' 'Female']
+												OutCome = A
+												Ever_Married ['Yes' 'No']
+														OutCome = D
+														OutCome = A
+										Var_1 ['Cat_7' 'Cat_6' 'Cat_3']
+												OutCome = D
+												Gender ['Male' 'Female']
+														OutCome = D
+														OutCome = B
+												OutCome = A
+										OutCome = A
+								Ever_Married ['No' 'Yes']
+										Gender ['Male' 'Female']
+												Graduated ['Yes' 'No']
+														OutCome = A
+														OutCome = A
+												OutCome = A
+										Graduated ['Yes' 'No']
+												Gender ['Male']
+														OutCome = A
+												OutCome = A
+								Work_Experience [1. 2. 4.]
+										Gender ['Male' 'Female']
+												Graduated ['Yes' 'No']
+														OutCome = D
+														OutCome = D
+												Ever_Married ['Yes' 'No']
+														OutCome = A
+														OutCome = B
+										OutCome = A
+										OutCome = A
+								Ever_Married ['No' 'Yes']
+										Graduated ['No' 'Yes']
+												OutCome = B
+												OutCome = C
+										Graduated ['No' 'Yes']
+												Gender ['Male']
+														OutCome = D
+												OutCome = A
+								Graduated ['No' 'Yes']
+										OutCome = A
+										OutCome = B
+						Work_Experience [1. 2. 3. 4. 5. 6. 7. 8.]
+								Var_1 ['Cat_6' 'Cat_4' 'Cat_3' 'Cat_7' 'Cat_1' 'Cat_5' 'Cat_2']
+										Age [3 4 5 6 7 8]
+												Graduated ['No' 'Yes']
+														OutCome = A
+														OutCome = A
+												Gender ['Male' 'Female']
+														OutCome = A
+														OutCome = D
+												Graduated ['Yes' 'No']
+														OutCome = B
+														OutCome = D
+												Graduated ['Yes' 'No']
+														OutCome = A
+														OutCome = D
+												Gender ['Male' 'Female']
+														OutCome = A
+														OutCome = A
+												Ever_Married ['No' 'Yes']
+														OutCome = C
+														OutCome = A
+										Age [3 4 5 6]
+												OutCome = A
+												Gender ['Female' 'Male']
+														OutCome = A
+														OutCome = A
+												Ever_Married ['Yes' 'No']
+														OutCome = B
+														OutCome = C
+												Graduated ['Yes' 'No']
+														OutCome = C
+														OutCome = A
+										Age [3 4 5 6 7]
+												Graduated ['Yes' 'No']
+														OutCome = B
+														OutCome = A
+												Ever_Married ['Yes' 'No']
+														OutCome = B
+														OutCome = A
+												OutCome = A
+												Gender ['Male' 'Female']
+														OutCome = C
+														OutCome = B
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = A
+										Gender ['Male' 'Female']
+												OutCome = A
+												OutCome = C
+										OutCome = A
+										OutCome = A
+										Age [3 4 5]
+												OutCome = D
+												OutCome = D
+												OutCome = A
+								Gender ['Female' 'Male']
+										OutCome = D
+										OutCome = A
+								Ever_Married ['Yes' 'No']
+										Gender ['Male' 'Female']
+												OutCome = A
+												Age [4 5 6]
+														OutCome = B
+														OutCome = A
+														OutCome = A
+										OutCome = D
+								Var_1 ['Cat_6' 'Cat_1' 'Cat_2' 'Cat_4']
+										Age [3 4 5 8]
+												OutCome = D
+												OutCome = A
+												OutCome = A
+												OutCome = A
+										OutCome = D
+										OutCome = B
+										OutCome = D
+								Age [3 4 5 6 7]
+										Gender ['Male' 'Female']
+												OutCome = D
+												OutCome = A
+										Gender ['Male' 'Female']
+												Ever_Married ['No' 'Yes']
+														OutCome = D
+														OutCome = B
+												OutCome = B
+										Graduated ['Yes' 'No']
+												OutCome = A
+												Var_1 ['Cat_6' 'Cat_4']
+														OutCome = D
+														OutCome = A
+										OutCome = A
+										OutCome = B
+								OutCome = B
+								OutCome = C
+								OutCome = D
+						Age [3 4 5 6 7]
+								Work_Experience [1. 2. 4. 5. 7.]
+										Var_1 ['Cat_4' 'Cat_3' 'Cat_6']
+												OutCome = D
+												OutCome = D
+												Gender ['Female' 'Male']
+														OutCome = D
+														OutCome = D
+										OutCome = D
+										Gender ['Female' 'Male']
+												OutCome = B
+												OutCome = A
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = D
+										OutCome = A
+								Var_1 ['Cat_6' 'Cat_7' 'Cat_3' 'Cat_1' 'Cat_2' 'Cat_4']
+										Graduated ['Yes' 'No']
+												Work_Experience [1. 5. 6.]
+														OutCome = A
+														OutCome = D
+														OutCome = A
+												Gender ['Female' 'Male']
+														OutCome = A
+														OutCome = B
+										OutCome = D
+										Ever_Married ['No' 'Yes']
+												OutCome = A
+												OutCome = D
+										Ever_Married ['No' 'Yes']
+												OutCome = B
+												OutCome = A
+										OutCome = B
+										OutCome = A
+								Var_1 ['Cat_6' 'Cat_3' 'Cat_4']
+										Work_Experience [1. 2. 3. 4.]
+												OutCome = A
+												OutCome = B
+												OutCome = A
+												Gender ['Male' 'Female']
+														OutCome = B
+														OutCome = A
+										OutCome = D
+										Gender ['Female' 'Male']
+												OutCome = D
+												OutCome = A
+								Work_Experience [1. 2. 4.]
+										Ever_Married ['Yes' 'No']
+												Var_1 ['Cat_6' 'Cat_2' 'Cat_4']
+														OutCome = A
+														OutCome = A
+														OutCome = A
+												OutCome = B
+										OutCome = B
+										OutCome = A
+								Gender ['Male' 'Female']
+										Ever_Married ['No' 'Yes']
+												OutCome = C
+												OutCome = A
+										OutCome = D
+						Work_Experience [1. 3. 4. 5. 6.]
+								Var_1 ['Cat_1' 'Cat_4' 'Cat_6' 'Cat_2' 'Cat_3']
+										OutCome = A
+										Age [3 4 5 6]
+												OutCome = C
+												OutCome = A
+												OutCome = A
+												OutCome = A
+										Age [2 3 4 5 6 7]
+												OutCome = D
+												Graduated ['No' 'Yes']
+														OutCome = D
+														OutCome = C
+												Gender ['Female' 'Male']
+														OutCome = D
+														OutCome = D
+												OutCome = A
+												Gender ['Male']
+														OutCome = A
+												OutCome = A
+										Age [3 4 5 6 7]
+												OutCome = C
+												OutCome = D
+												OutCome = C
+												OutCome = C
+												OutCome = C
+										OutCome = A
+								Age [3 5]
+										OutCome = B
+										OutCome = D
+								Ever_Married ['Yes' 'No']
+										OutCome = A
+										Age [3 4]
+												OutCome = D
+												OutCome = A
+								Var_1 ['Cat_6' 'Cat_3' 'Cat_4']
+										Gender ['Male' 'Female']
+												Age [3 4]
+														OutCome = C
+														OutCome = A
+												OutCome = C
+										Gender ['Male' 'Female']
+												OutCome = C
+												OutCome = B
+										OutCome = D
+								OutCome = B
+						Age [2 3 4 5 6 7]
+								Gender ['Female' 'Male']
+										Var_1 ['Cat_6' 'Cat_2']
+												OutCome = D
+												OutCome = C
+										OutCome = C
+								Var_1 ['Cat_6' 'Cat_4' 'Cat_5' 'Cat_2']
+										Graduated ['Yes' 'No']
+												Gender ['Female' 'Male']
+														OutCome = B
+														OutCome = B
+												OutCome = D
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = D
+										OutCome = D
+										OutCome = B
+								Var_1 ['Cat_6' 'Cat_3' 'Cat_4' 'Cat_1' 'Cat_2' 'Cat_7']
+										Work_Experience [1. 5. 7.]
+												Ever_Married ['Yes' 'No']
+														OutCome = B
+														OutCome = D
+												OutCome = C
+												OutCome = D
+										OutCome = D
+										OutCome = D
+										OutCome = D
+										OutCome = A
+										OutCome = D
+								Var_1 ['Cat_6' 'Cat_3']
+										OutCome = D
+										OutCome = B
+								OutCome = B
+								OutCome = A
+						Age [2 3 4 5]
+								Gender ['Male']
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = C
+								OutCome = B
+								Work_Experience [1. 4. 5. 6.]
+										OutCome = D
+										OutCome = A
+										OutCome = D
+										OutCome = D
+								Graduated ['No' 'Yes']
+										OutCome = B
+										OutCome = A
+						Gender ['Male' 'Female']
+								OutCome = D
+								OutCome = B
+						Age [3 4 5 7]
+								OutCome = D
+								OutCome = C
+								OutCome = A
+								OutCome = A
+						OutCome = A
+				Age [2 3 4 5 6 7 8 9]
+						OutCome = D
+						OutCome = D
+						Gender ['Male' 'Female']
+								Var_1 ['Cat_6' 'Cat_2']
+										Work_Experience [1. 5.]
+												OutCome = D
+												Gender ['Male']
+														OutCome = B
+										OutCome = A
+								OutCome = A
+						Family_Size [1. 2. 4. 5. 6.]
+								OutCome = D
+								Graduated ['No' 'Yes']
+										OutCome = A
+										OutCome = D
+								OutCome = D
+								OutCome = C
+								OutCome = A
+						Family_Size [2. 3. 4.]
+								Gender ['Male' 'Female']
+										OutCome = B
+										OutCome = A
+								OutCome = D
+								OutCome = D
+						Graduated ['No' 'Yes']
+								Gender ['Male']
+										Gender ['Male']
+												Gender ['Male']
+														OutCome = B
+								Var_1 ['Cat_6' 'Cat_7']
+										OutCome = C
+										OutCome = B
+						Gender ['Male' 'Female']
+								OutCome = A
+								Graduated ['Yes' 'No']
+										OutCome = B
+										OutCome = D
+						Gender ['Female' 'Male']
+								Family_Size [2. 3.]
+										OutCome = B
+										OutCome = A
+								OutCome = D

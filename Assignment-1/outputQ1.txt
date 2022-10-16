@@ -1,0 +1,56 @@
+--------------------------- DECISION TREE ------------------------------
+
+-------------------------- LOADED DATA -------------------------------
+          ID  Gender Ever_Married  ...  Family_Size  Var_1 Segmentation
+0     462809    Male           No  ...          4.0  Cat_4            D
+1     462643  Female          Yes  ...          3.0  Cat_4            A
+2     466315  Female          Yes  ...          1.0  Cat_6            B
+3     461735    Male          Yes  ...          2.0  Cat_6            B
+4     462669  Female          Yes  ...          6.0  Cat_6            A
+...      ...     ...          ...  ...          ...    ...          ...
+8063  464018    Male           No  ...          7.0  Cat_1            D
+8064  464685    Male           No  ...          4.0  Cat_4            D
+8065  465406  Female           No  ...          1.0  Cat_6            D
+8066  467299  Female           No  ...          4.0  Cat_6            B
+8067  461879    Male          Yes  ...          3.0  Cat_4            B
+
+[8068 rows x 11 columns]
+
+----------------------- Calculating Impurity Measure ----------------------
+------------ RESULTS ------------
+Train Accuracy:  81.94917880384259
+Test Accuracy:  46.40644361833953
+
+-------------- Determine Accuracy over 10 random splits --------------
+Split 1: Train Accuracy: 81.77416230873523, Test Accuracy: 46.40644361833953
+Split 2: Train Accuracy: 81.71605655626574, Test Accuracy: 46.28252788104089
+Split 3: Train Accuracy: 81.40615920976177, Test Accuracy: 45.9727385377943
+Split 4: Train Accuracy: 81.0768932791013, Test Accuracy: 46.220570012391576
+Split 5: Train Accuracy: 81.32868487313577, Test Accuracy: 45.9727385377943
+Split 6: Train Accuracy: 81.58047646717024, Test Accuracy: 44.237918215613384
+Split 7: Train Accuracy: 81.79353089289172, Test Accuracy: 47.14993804213135
+Split 8: Train Accuracy: 81.38679062560527, Test Accuracy: 46.344485749690215
+Split 9: Train Accuracy: 81.17373619988378, Test Accuracy: 45.60099132589839
+Split 10: Train Accuracy: 81.32867687313577, Test Accuracy: 45.97278785377943
+Average Test Accuracy: 46.020927991188216
+Best Test Accuracy: 47.14993804213135
+Iteration 1 :
+Iteration 2 :
+Iteration 3 :
+Iteration 4 :
+Iteration 5 :
+Depth: 1, Accuracy: 43.65551425030979
+Depth: 2, Accuracy: 48.4634448574969
+Depth: 3, Accuracy: 49.50433705080546
+Depth: 4, Accuracy: 47.5092936802974
+Depth: 5, Accuracy: 46.7905824039653
+Depth: 6, Accuracy: 46.443618339529124
+Depth: 7, Accuracy: 45.452292441140024
+Best Depth: 3
+Best Accuracy: 49.50433705080546
+
+-------------- print before pruning --------------
+Best Accuracy before pruning: 45.081332300542215
+
+-------------- print after pruning --------------
+Best Accuracy after pruning: 48.7993803253292

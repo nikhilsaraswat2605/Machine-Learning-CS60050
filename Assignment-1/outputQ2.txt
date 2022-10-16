@@ -1,0 +1,31 @@
+
+-----------------Feature Encoding Done-----------------
+
+
+-------------------Normalising and outliers Removing Done-------------------
+
+
+
+-----------------Final set of features formed:-----------------
+ Index(['Gender', 'Ever_Married', 'Age', 'Graduated', 'Profession',
+       'Work_Experience', 'Spending_Score', 'Family_Size', 'Var_1'],
+      dtype='object')
+
+
+--------------------Naive Bayes Classifier----------------------------------
+
+Train accuracy:  46.975806451612904
+Test accuracy:  48.759305210918114
+
+
+------------------10-Fold Cross Validation------------------
+
+Accuracy:  [50.37220843672456, 50.86848635235732, 53.349875930521094, 50.744416873449126, 49.007444168734494, 51.488833746898266, 50.49627791563276, 51.86104218362283, 50.86848635235732, 50.0]
+Mean accuracy:  50.90570719602978
+Max accuracy:  53.349875930521094
+
+
+-------------------- Using Laplace Correction -------------------
+
+Train accuracy:  52.17121588089329
+Test accuracy:  51.736972704714645

@@ -1,0 +1,299 @@
+digraph {
+	node [shape=box]
+	0 [label=Profession
+]
+	0 -> 1 [label=Marketing]
+	0 -> 2 [label=Executive]
+	0 -> 3 [label=Artist]
+	0 -> 4 [label=Doctor]
+	0 -> 5 [label=Healthcare]
+	0 -> 6 [label=Engineer]
+	0 -> 7 [label=Lawyer]
+	0 -> 8 [label=Homemaker]
+	0 -> 9 [label=Entertainment]
+	1 [label="Age
+D"]
+	2 [label=Age
+]
+	2 -> 10 [label=2]
+	2 -> 11 [label=3]
+	2 -> 12 [label=4]
+	2 -> 13 [label=5]
+	2 -> 14 [label=6]
+	2 -> 15 [label=7]
+	2 -> 16 [label=8]
+	2 -> 17 [label=9]
+	3 [label=Spending_Score
+]
+	3 -> 18 [label=Low]
+	3 -> 19 [label=Average]
+	3 -> 20 [label=High]
+	4 [label="Age
+D"]
+	5 [label="Age
+D"]
+	6 [label=Family_Size
+]
+	6 -> 21 [label=1.0]
+	6 -> 22 [label=2.0]
+	6 -> 23 [label=3.0]
+	6 -> 24 [label=4.0]
+	6 -> 25 [label=5.0]
+	6 -> 26 [label=6.0]
+	6 -> 27 [label=7.0]
+	6 -> 28 [label=8.0]
+	6 -> 29 [label=9.0]
+	7 [label=Family_Size
+]
+	7 -> 30 [label=1.0]
+	7 -> 31 [label=2.0]
+	7 -> 32 [label=3.0]
+	7 -> 33 [label=4.0]
+	7 -> 34 [label=5.0]
+	7 -> 35 [label=6.0]
+	7 -> 36 [label=9.0]
+	8 [label=Age
+]
+	8 -> 37 [label=3]
+	8 -> 38 [label=4]
+	8 -> 39 [label=5]
+	8 -> 40 [label=6]
+	8 -> 41 [label=7]
+	8 -> 42 [label=8]
+	8 -> 43 [label=9]
+	9 [label="Spending_Score
+A"]
+	10 [label="Outcome
+D"]
+	11 [label="Family_Size
+D"]
+	12 [label="Family_Size
+D"]
+	13 [label="Family_Size
+B"]
+	14 [label=Family_Size
+]
+	14 -> 44 [label=1.0]
+	14 -> 45 [label=2.0]
+	14 -> 46 [label=3.0]
+	14 -> 47 [label=4.0]
+	14 -> 48 [label=5.0]
+	14 -> 49 [label=9.0]
+	15 [label="Family_Size
+C"]
+	16 [label="Family_Size
+C"]
+	17 [label="Family_Size
+A"]
+	18 [label=Age
+]
+	18 -> 50 [label=2]
+	18 -> 51 [label=3]
+	18 -> 52 [label=4]
+	18 -> 53 [label=5]
+	18 -> 54 [label=6]
+	18 -> 55 [label=7]
+	18 -> 56 [label=8]
+	18 -> 57 [label=9]
+	19 [label="Age
+C"]
+	20 [label=Age
+]
+	20 -> 58 [label=2]
+	20 -> 59 [label=3]
+	20 -> 60 [label=4]
+	20 -> 61 [label=5]
+	20 -> 62 [label=6]
+	20 -> 63 [label=7]
+	20 -> 64 [label=8]
+	20 -> 65 [label=9]
+	21 [label="Work_Experience
+A"]
+	22 [label=Spending_Score
+]
+	22 -> 66 [label=Low]
+	22 -> 67 [label=High]
+	22 -> 68 [label=Average]
+	23 [label="Work_Experience
+A"]
+	24 [label=Spending_Score
+]
+	24 -> 69 [label=Low]
+	24 -> 70 [label=Average]
+	24 -> 71 [label=High]
+	25 [label=Age
+]
+	25 -> 72 [label=2]
+	25 -> 73 [label=3]
+	25 -> 74 [label=4]
+	25 -> 75 [label=5]
+	25 -> 76 [label=6]
+	25 -> 77 [label=7]
+	26 [label="Age
+B"]
+	27 [label="Work_Experience
+A"]
+	28 [label="Outcome
+D"]
+	29 [label="Age
+D"]
+	30 [label="Work_Experience
+A"]
+	31 [label=Graduated
+]
+	31 -> 78 [label=Yes]
+	31 -> 79 [label=No]
+	32 [label="Age
+A"]
+	33 [label="Var_1
+C"]
+	34 [label="Var_1
+A"]
+	35 [label="Outcome
+B"]
+	36 [label="Age
+A"]
+	37 [label="Family_Size
+D"]
+	38 [label="Family_Size
+D"]
+	39 [label="Work_Experience
+A"]
+	40 [label=Family_Size
+]
+	40 -> 80 [label=1.0]
+	40 -> 81 [label=2.0]
+	40 -> 82 [label=3.0]
+	40 -> 83 [label=4.0]
+	41 [label="Spending_Score
+B"]
+	42 [label="Outcome
+A"]
+	43 [label="Ever_Married
+D"]
+	44 [label=Gender
+]
+	44 -> 84 [label=Female]
+	44 -> 85 [label=Male]
+	45 [label="Work_Experience
+C"]
+	46 [label="Var_1
+C"]
+	47 [label="Var_1
+C"]
+	48 [label="Var_1
+C"]
+	49 [label="Graduated
+A"]
+	50 [label="Var_1
+D"]
+	51 [label="Family_Size
+A"]
+	52 [label="Family_Size
+A"]
+	53 [label=Var_1
+]
+	53 -> 86 [label=Cat_6]
+	53 -> 87 [label=Cat_4]
+	53 -> 88 [label=Cat_2]
+	53 -> 89 [label=Cat_7]
+	53 -> 90 [label=Cat_3]
+	53 -> 91 [label=Cat_1]
+	53 -> 92 [label=Cat_5]
+	54 [label="Work_Experience
+B"]
+	55 [label="Var_1
+B"]
+	56 [label="Ever_Married
+B"]
+	57 [label="Work_Experience
+A"]
+	58 [label="Outcome
+D"]
+	59 [label="Outcome
+D"]
+	60 [label="Work_Experience
+C"]
+	61 [label="Work_Experience
+C"]
+	62 [label="Var_1
+C"]
+	63 [label="Work_Experience
+C"]
+	64 [label="Var_1
+C"]
+	65 [label="Graduated
+C"]
+	66 [label="Var_1
+A"]
+	67 [label="Age
+B"]
+	68 [label="Var_1
+C"]
+	69 [label=Var_1
+]
+	69 -> 93 [label=Cat_4]
+	69 -> 94 [label=Cat_6]
+	69 -> 95 [label=Cat_5]
+	69 -> 96 [label=Cat_1]
+	69 -> 97 [label=Cat_2]
+	69 -> 98 [label=Cat_3]
+	70 [label="Var_1
+B"]
+	71 [label="Age
+A"]
+	72 [label="Outcome
+D"]
+	73 [label="Var_1
+D"]
+	74 [label="Var_1
+D"]
+	75 [label="Work_Experience
+B"]
+	76 [label="Gender
+B"]
+	77 [label="Gender
+B"]
+	78 [label="Spending_Score
+C"]
+	79 [label="Age
+A"]
+	80 [label="Graduated
+A"]
+	81 [label="Var_1
+B"]
+	82 [label="Outcome
+B"]
+	83 [label="Graduated
+B"]
+	84 [label="Outcome
+A"]
+	85 [label="Graduated
+D"]
+	86 [label="Family_Size
+B"]
+	87 [label="Work_Experience
+A"]
+	88 [label="Family_Size
+B"]
+	89 [label="Gender
+A"]
+	90 [label="Family_Size
+B"]
+	91 [label="Ever_Married
+A"]
+	92 [label="Family_Size
+B"]
+	93 [label="Age
+A"]
+	94 [label="Age
+D"]
+	95 [label="Outcome
+A"]
+	96 [label="Gender
+B"]
+	97 [label="Gender
+A"]
+	98 [label="Gender
+D"]
+}
