@@ -2,7 +2,7 @@ import pandas as pd
 import numpy as np 
 import matplotlib.pyplot as plt 
 from sklearn.decomposition import PCA 
-from sklearn.preprocessing import StandardScaler 
+# from sklearn.preprocessing import StandardScaler 
 import plotly.express as px
 np.random.seed(42) # for reproducibility
 
@@ -189,6 +189,8 @@ if __name__ == "__main__":
     output_file = open("output.txt", "w")
     print("\n\n----------------------Loading data----------------------")
     df = pd.read_csv('wine.data') # Read the data
+    # randomize the data
+    df = df.sample(frac=1).reset_index(drop=True)
     df.columns = ['Class', 'Alcohol', 'Malic acid', 'Ash', 'Alcalinity of ash', 'Magnesium', 'Total phenols', 'Flavanoids', 'Nonflavanoid phenols', 'Proanthocyanins', 'Color intensity', 'Hue', 'OD280/OD315 of diluted wines', 'Proline'] # Rename the columns
 
     print("\n\n----------------------Data----------------------", file=output_file)
