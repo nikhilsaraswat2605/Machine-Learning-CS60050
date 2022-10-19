@@ -273,6 +273,8 @@ if __name__ == "__main__":
     print("\n\n----------------------Printing best K and NMI--------------------------", file=output_file)
     print("Best K = ", best_K, "Best NMI = ", best_NMI, file=output_file) # Print the best K and NMI
     print("\n\n----------------------Plotting NMI vs K----------------------")
+
+    # Plot the graph of K vs NMI
     plt.figure()
     plt.plot(range(2, 9), NMI)
     plt.title("NMI vs K")
