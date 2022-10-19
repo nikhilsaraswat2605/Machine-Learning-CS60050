@@ -226,15 +226,15 @@ if __name__ == "__main__":
     } # Create a dictionary of labels for the plot
 
     print("\n\n----------------------Plotting principal components----------------------")
-    # fig = px.scatter_matrix(
-    #     principalComponents,
-    #     labels=labels,
-    #     dimensions=range(principalComponents.shape[1]),
-    #     color=df["Class"],
-    # ) # Create the plot
-    # fig.update_traces(diagonal_visible=False) # Remove the diagonal
-    # fig.show() # Show the plot
-    # fig.to_image("PCA.png") # Save the plot
+    fig = px.scatter_matrix(
+        principalComponents,
+        labels=labels,
+        dimensions=range(principalComponents.shape[1]),
+        color=df["Class"],
+    ) # Create the plot
+    fig.update_traces(diagonal_visible=False) # Remove the diagonal
+    # fig to png
+    fig.show()
 
     # plot all pca components w.r.t each other
     for i in range(principalComponents.shape[1]):
