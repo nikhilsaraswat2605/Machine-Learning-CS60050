@@ -202,6 +202,8 @@ if __name__ == "__main__":
     output_file = open("outputs/output.txt", "w")
     print("\n\n----------------------Loading data----------------------")
     df = pd.read_csv('wine.data') # Read the data
+    # handle missing values with most frequent value
+    df = df.fillna(df.mode().iloc[0])
     # randomize the data
     df = df.sample(frac=1).reset_index(drop=True)
     df.columns = ['Class', 'Alcohol', 'Malic acid', 'Ash', 'Alcalinity of ash', 'Magnesium', 'Total phenols', 'Flavanoids', 'Nonflavanoid phenols', 'Proanthocyanins', 'Color intensity', 'Hue', 'OD280/OD315 of diluted wines', 'Proline'] # Rename the columns
