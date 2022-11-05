@@ -3,12 +3,25 @@ import numpy as np
 import matplotlib.pyplot as plt 
 from sklearn.decomposition import PCA 
 # from sklearn.preprocessing import StandardScaler 
+
 import plotly.express as px
 np.random.seed(42) # for reproducibility
 
 # figure maxopen warning ignore
 import warnings
 warnings.filterwarnings("ignore")
+
+def autolabel(rects):
+    """
+    Attach a text label above each bar, displaying its height.
+    """
+    for rect in rects:
+        height = rect.get_height()
+        ax.annotate('%.3f' % height,
+                    xy=(rect.get_x() + rect.get_width() / 2, height),
+                    xytext=(0, 3),  # 3 points vertical offset
+                    textcoords="offset points",
+                    ha='center', va='bottom')
 
 def euclidean_distance(x1, x2):
     """
@@ -190,7 +203,7 @@ if __name__ == "__main__":
     print("\n\n----------------------Loading data----------------------")
     df = pd.read_csv('wine.data') # Read the data
     # randomize the data
-    df = df.sample(frac=1).reset_index(drop=True)
+    # df = df.sample(frac=1).reset_index(drop=True)
     df.columns = ['Class', 'Alcohol', 'Malic acid', 'Ash', 'Alcalinity of ash', 'Magnesium', 'Total phenols', 'Flavanoids', 'Nonflavanoid phenols', 'Proanthocyanins', 'Color intensity', 'Hue', 'OD280/OD315 of diluted wines', 'Proline'] # Rename the columns
 
     print("\n\n----------------------Data----------------------", file=output_file)
@@ -214,6 +227,42 @@ if __name__ == "__main__":
 
     print("\n\n----------------------Fitting PCA----------------------")
     principalComponents = pca.fit_transform(X_std) # Fit the PCA and transform the data
+
+    var = pca.explained_variance_ratio_[:] #percentage of variance explained by each of the selected components.
+    labels = ['PC' + str(i+1) for i in range(len(var))] # Create labels for the scree plot
+
+    fig, ax = plt.subplots(figsize=(15,7)) # Create a figure and axes
+    plot1 = ax.bar(labels, var) # Plot the variance explained by each component
+
+    ax.plot(labels,var) # Plot the variance explained by each component
+    ax.set_title('Proportion of Variance Explained VS Pricipal Component') # Set the title
+    ax.set_xlabel('Pricipal Component') # Set the x label
+    ax.set_ylabel('Proportion of Variance Explained') # Set the y label
+    autolabel(plot1) # Add the labels to the bars
+    plt.savefig('Proportion of Variance Explained VS Pricipal Component.png') # Save the figure
+
+    cumsum = [i for i in var] # Initialize the cumulative sum
+    nc = -1 # Initialize the number of components
+    for i in range(1,len(cumsum)): # Loop through the cumulative sum
+        cumsum[i] += cumsum[i-1]
+        if cumsum[i] >= 0.95 and nc == -1:
+            nc = i+1
+
+    fig, ax = plt.subplots(figsize=(15,7)) # Create a figure and axes
+    plot2 = ax.bar(labels, cumsum) # Plot the cumulative sum
+
+    # Add some text for labels, title and custom x-axis tick labels, etc.
+    ax.set_ylabel('Variance Ratio cummulative sum') # Set the y label
+    ax.set_xlabel('number principal components') # Set the x label
+    ax.set_title('Variance Ratio cummulative sum VS number principal components') # Set the title
+    ax.set_xticks(np.arange(len(labels))) # Set the x ticks
+    ax.set_xticklabels(labels) # Set the x tick labels
+
+    ax.axvline('PC'+str(nc), c='red') # Add a vertical line at the number of components
+    ax.axhline(0.95, c='green') # Add a horizontal line at 0.95
+    ax.text('PC5', 0.95, '0.95', fontsize=15, va='center', ha='center', backgroundcolor='w') # Add a text label at the intersection of the vertical and horizontal lines
+    autolabel(plot2) # Add the labels to the bars
+    plt.savefig('Variance Ratio cummulative sum VS number principal components.png') # Save the figure
 
     principalDf = pd.DataFrame(data = principalComponents) # Create a new dataframe with the PCA data
     print("\n\nNumber of Components before PCA: ", X.shape[1], file=output_file)
